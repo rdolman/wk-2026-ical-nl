@@ -66,22 +66,38 @@ def best_game_for_event(block: str, games: list[Game]) -> Game | None:
     start = event_start(block)
     if not start:
         return None
-    start_utc = start.astimezone(timezone.utc)
-    summary = translate_text(normalized_summary(get_prop(block, "SUMMARY") or ""))
 
-    best: tuple[int, Game] | None = None
+    start_utc = start.astimezone(timezone.utc)
+    summary_raw = get_prop(block, "SUMMARY") or ""
+    summary_nl = translate_text(summary_raw).lower()
+
+    candidates: list[tuple[int, Game]] = []
+
     for game in games:
         diff = abs((game.start_utc - start_utc).total_seconds())
         if diff > 4 * 3600:
             continue
-        score = int(diff)
-        # Small preference for already matching team names.
-        title = matchup_title(game.home, game.away).lower()
-        if any(part in title for part in summary.split(" vs ")):
-            score -= 1800
-        if best is None or score < best[0]:
-            best = (score, game)
-    return best[1] if best else None
+
+        home_nl = translate_text(game.home).lower()
+        away_nl = translate_text(game.away).lower()
+
+        name_matches = 0
+        if home_nl in summary_nl:
+            name_matches += 1
+        if away_nl in summary_nl:
+            name_matches += 1
+
+        # Belangrijk: bij gelijktijdige wedstrijden nooit alleen op tijd matchen
+        if name_matches == 0:
+            continue
+
+        score = int(diff) - (name_matches * 10_000)
+        candidates.append((score, game))
+
+    if not candidates:
+        return None
+
+    return sorted(candidates, key=lambda item: item[0])[0][1]
 
 def update_ics_text(text: str, games: list[Game]) -> tuple[str, int]:
     text = unfold_ics(text)
