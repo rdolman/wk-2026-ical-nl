@@ -59,5 +59,5 @@ def matchup_title(home: str | None, away: str | None, home_score: int | None = N
     h = team_nl(home, with_emoji=True)
     a = team_nl(away, with_emoji=True)
     if completed and home_score is not None and away_score is not None:
-        return f"WK 2026: {h} {home_score}–{away_score} {a}"
-    return f"WK 2026: {h} vs {a}"
+        return f"WK: {h} - {a} ({home_score}–{away_score})"
+    return f"WK: {h} - {a}"
