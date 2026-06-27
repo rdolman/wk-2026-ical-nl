@@ -1,25 +1,31 @@
-#!/usr/bin/env python3
-from __future__ import annotations
+name: Update WK 2026 kalender
 
-import sys
-from pathlib import Path
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
 
-# Make local package importable when running from GitHub Actions.
-ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "scripts"))
+permissions:
+  contents: write
 
-from wkical.ical import update_ics_file
-from wkical.sources import fetch_games
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
 
-def main() -> int:
-    calendar = ROOT / "wk2026.ics"
-    games = fetch_games()
-    if not games:
-        print("Geen wedstrijden gevonden; niets aangepast.")
-        return 0
-    changed = update_ics_file(calendar, games)
-    print(f"{changed} agenda-items bijgewerkt.")
-    return 0
+    steps:
+      - name: Repository ophalen
+        uses: actions/checkout@v4
 
-if __name__ == "__main__":
-    raise SystemExit(main())
+      - name: Python installeren
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Kalender bijwerken
+        run: python scripts/build_calendar.py
+
+      - name: Wijzigingen committen
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Update WK 2026 kalender'
+          file_pattern: 'wk2026.ics'
