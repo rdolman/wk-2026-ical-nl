@@ -4,7 +4,6 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-# Make local package importable when running from GitHub Actions.
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
@@ -18,7 +17,7 @@ def main() -> int:
         print("Geen wedstrijden gevonden; niets aangepast.")
         return 0
     changed = update_ics_file(calendar, games)
-    print(f"{changed} agenda-items bijgewerkt.")
+    print(f"Kalender bijgewerkt: {changed}")
     return 0
 
 if __name__ == "__main__":

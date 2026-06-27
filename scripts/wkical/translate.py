@@ -55,7 +55,13 @@ def translate_text(text: str | None) -> str:
     s = s.replace("FIFA/Sky Sports speelschema", "FIFA/Sky Sports-speelschema")
     return s
 
-def matchup_title(home: str | None, away: str | None, home_score: int | None = None, away_score: int | None = None, completed: bool = False) -> str:
+def matchup_title(
+    home: str | None,
+    away: str | None,
+    home_score: int | None = None,
+    away_score: int | None = None,
+    completed: bool = False,
+) -> str:
     h = team_nl(home, with_emoji=True)
     a = team_nl(away, with_emoji=True)
     if completed and home_score is not None and away_score is not None:

@@ -18,6 +18,7 @@ class Game:
     status: str
     stage: str | None = None
     venue: str | None = None
+    city: str | None = None
 
 ESPN_SCOREBOARD_URL = os.environ.get(
     "ESPN_SCOREBOARD_URL",
@@ -25,10 +26,7 @@ ESPN_SCOREBOARD_URL = os.environ.get(
 )
 
 def _read_json_url(url: str) -> dict:
-    req = urllib.request.Request(
-        url,
-        headers={"User-Agent": "rdolman-wk2026-ical-nl/2.0"},
-    )
+    req = urllib.request.Request(url, headers={"User-Agent": "rdolman-wk2026-ical-nl/4.0"})
     with urllib.request.urlopen(req, timeout=30) as response:
         return json.loads(response.read().decode("utf-8"))
 
@@ -39,7 +37,6 @@ def _score(value) -> int | None:
         return None
 
 def fetch_espn_games() -> list[Game]:
-    """Haal wedstrijden op uit de publieke ESPN site scoreboard-feed."""
     data = _read_json_url(ESPN_SCOREBOARD_URL)
     games: list[Game] = []
 
@@ -66,28 +63,34 @@ def fetch_espn_games() -> list[Game]:
         start_utc = datetime.fromisoformat(raw_date.replace("Z", "+00:00")).astimezone(timezone.utc)
 
         venue = None
-        if comp.get("venue"):
-            venue = comp["venue"].get("fullName") or (comp["venue"].get("address") or {}).get("city")
+        city = None
+        venue_obj = comp.get("venue") or {}
+        if venue_obj:
+            venue = venue_obj.get("fullName")
+            address = venue_obj.get("address") or {}
+            city = address.get("city")
 
         stage = None
         if event.get("season", {}).get("type"):
             stage = str(event["season"]["type"])
 
-        games.append(Game(
-            id=str(event.get("id")),
-            start_utc=start_utc,
-            home=team_name(home),
-            away=team_name(away),
-            home_score=_score(home.get("score")),
-            away_score=_score(away.get("score")),
-            completed=completed,
-            status=status,
-            stage=stage,
-            venue=venue,
-        ))
+        games.append(
+            Game(
+                id=str(event.get("id")),
+                start_utc=start_utc,
+                home=team_name(home),
+                away=team_name(away),
+                home_score=_score(home.get("score")),
+                away_score=_score(away.get("score")),
+                completed=completed,
+                status=status,
+                stage=stage,
+                venue=venue,
+                city=city,
+            )
+        )
 
     return games
 
 def fetch_games() -> list[Game]:
-    """Centrale ingang. Later kunnen we hier een officiële FIFA-feed aan toevoegen."""
     return fetch_espn_games()
