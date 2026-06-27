@@ -1,0 +1,234 @@
+{
+  "Mexico": {
+    "nl": "Mexico",
+    "emoji": "🇲🇽"
+  },
+  "South Africa": {
+    "nl": "Zuid-Afrika",
+    "emoji": "🇿🇦"
+  },
+  "South Korea": {
+    "nl": "Zuid-Korea",
+    "emoji": "🇰🇷"
+  },
+  "Korea Republic": {
+    "nl": "Zuid-Korea",
+    "emoji": "🇰🇷"
+  },
+  "Czechia": {
+    "nl": "Tsjechië",
+    "emoji": "🇨🇿"
+  },
+  "Czech Republic": {
+    "nl": "Tsjechië",
+    "emoji": "🇨🇿"
+  },
+  "Canada": {
+    "nl": "Canada",
+    "emoji": "🇨🇦"
+  },
+  "Bosnia and Herzegovina": {
+    "nl": "Bosnië en Herzegovina",
+    "emoji": "🇧🇦"
+  },
+  "Bosnia & Herzegovina": {
+    "nl": "Bosnië en Herzegovina",
+    "emoji": "🇧🇦"
+  },
+  "Qatar": {
+    "nl": "Qatar",
+    "emoji": "🇶🇦"
+  },
+  "Switzerland": {
+    "nl": "Zwitserland",
+    "emoji": "🇨🇭"
+  },
+  "Brazil": {
+    "nl": "Brazilië",
+    "emoji": "🇧🇷"
+  },
+  "Morocco": {
+    "nl": "Marokko",
+    "emoji": "🇲🇦"
+  },
+  "Haiti": {
+    "nl": "Haïti",
+    "emoji": "🇭🇹"
+  },
+  "Scotland": {
+    "nl": "Schotland",
+    "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+  },
+  "United States": {
+    "nl": "Verenigde Staten",
+    "emoji": "🇺🇸"
+  },
+  "USA": {
+    "nl": "Verenigde Staten",
+    "emoji": "🇺🇸"
+  },
+  "Paraguay": {
+    "nl": "Paraguay",
+    "emoji": "🇵🇾"
+  },
+  "Australia": {
+    "nl": "Australië",
+    "emoji": "🇦🇺"
+  },
+  "Turkey": {
+    "nl": "Turkije",
+    "emoji": "🇹🇷"
+  },
+  "Türkiye": {
+    "nl": "Turkije",
+    "emoji": "🇹🇷"
+  },
+  "Germany": {
+    "nl": "Duitsland",
+    "emoji": "🇩🇪"
+  },
+  "Curacao": {
+    "nl": "Curaçao",
+    "emoji": "🇨🇼"
+  },
+  "Curaçao": {
+    "nl": "Curaçao",
+    "emoji": "🇨🇼"
+  },
+  "Ivory Coast": {
+    "nl": "Ivoorkust",
+    "emoji": "🇨🇮"
+  },
+  "Côte d’Ivoire": {
+    "nl": "Ivoorkust",
+    "emoji": "🇨🇮"
+  },
+  "Cote d'Ivoire": {
+    "nl": "Ivoorkust",
+    "emoji": "🇨🇮"
+  },
+  "Ecuador": {
+    "nl": "Ecuador",
+    "emoji": "🇪🇨"
+  },
+  "Netherlands": {
+    "nl": "Nederland",
+    "emoji": "🇳🇱"
+  },
+  "Japan": {
+    "nl": "Japan",
+    "emoji": "🇯🇵"
+  },
+  "Sweden": {
+    "nl": "Zweden",
+    "emoji": "🇸🇪"
+  },
+  "Tunisia": {
+    "nl": "Tunesië",
+    "emoji": "🇹🇳"
+  },
+  "Belgium": {
+    "nl": "België",
+    "emoji": "🇧🇪"
+  },
+  "Egypt": {
+    "nl": "Egypte",
+    "emoji": "🇪🇬"
+  },
+  "Iran": {
+    "nl": "Iran",
+    "emoji": "🇮🇷"
+  },
+  "New Zealand": {
+    "nl": "Nieuw-Zeeland",
+    "emoji": "🇳🇿"
+  },
+  "Spain": {
+    "nl": "Spanje",
+    "emoji": "🇪🇸"
+  },
+  "Cape Verde": {
+    "nl": "Kaapverdië",
+    "emoji": "🇨🇻"
+  },
+  "Saudi Arabia": {
+    "nl": "Saoedi-Arabië",
+    "emoji": "🇸🇦"
+  },
+  "Uruguay": {
+    "nl": "Uruguay",
+    "emoji": "🇺🇾"
+  },
+  "France": {
+    "nl": "Frankrijk",
+    "emoji": "🇫🇷"
+  },
+  "Senegal": {
+    "nl": "Senegal",
+    "emoji": "🇸🇳"
+  },
+  "Iraq": {
+    "nl": "Irak",
+    "emoji": "🇮🇶"
+  },
+  "Norway": {
+    "nl": "Noorwegen",
+    "emoji": "🇳🇴"
+  },
+  "Argentina": {
+    "nl": "Argentinië",
+    "emoji": "🇦🇷"
+  },
+  "Algeria": {
+    "nl": "Algerije",
+    "emoji": "🇩🇿"
+  },
+  "Austria": {
+    "nl": "Oostenrijk",
+    "emoji": "🇦🇹"
+  },
+  "Jordan": {
+    "nl": "Jordanië",
+    "emoji": "🇯🇴"
+  },
+  "Portugal": {
+    "nl": "Portugal",
+    "emoji": "🇵🇹"
+  },
+  "DR Congo": {
+    "nl": "DR Congo",
+    "emoji": "🇨🇩"
+  },
+  "Congo DR": {
+    "nl": "DR Congo",
+    "emoji": "🇨🇩"
+  },
+  "Uzbekistan": {
+    "nl": "Oezbekistan",
+    "emoji": "🇺🇿"
+  },
+  "Colombia": {
+    "nl": "Colombia",
+    "emoji": "🇨🇴"
+  },
+  "England": {
+    "nl": "Engeland",
+    "emoji": "🏴"
+  },
+  "Croatia": {
+    "nl": "Kroatië",
+    "emoji": "🇭🇷"
+  },
+  "Ghana": {
+    "nl": "Ghana",
+    "emoji": "🇬🇭"
+  },
+  "Panama": {
+    "nl": "Panama",
+    "emoji": "🇵🇦"
+  },
+  "TBD": {
+    "nl": "Nog te bepalen",
+    "emoji": "🏳️"
+  }
+}
