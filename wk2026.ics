@@ -24,9 +24,13 @@ TZOFFSETTO:+0100
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DESCRIPTION:Groep L. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep L. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760485
+Status: Full Time
+Bronlocatie: MetLife Stadium
 Live bron: ESPN
 Wedstrijd-id: 760485
 Status: Full Time
@@ -44,19 +48,23 @@ Wedstrijd-id: 760485
 Status: First Half
 Bronlocatie: MetLife Stadium
 DTEND;TZID=Europe/Amsterdam:20260628T010000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260627T230000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:New Jersey\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:MetLife Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇵🇦 Panama - 🏴 Engeland (0–2)
 TRANSP:OPAQUE
 UID:10a47c1b06ffec8b0d9b86435ce430da@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep D. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep D. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760417
+Status: Full Time
+Bronlocatie: SoFi Stadium
 Live bron: ESPN
 Wedstrijd-id: 760417
 Status: Full Time
@@ -75,20 +83,24 @@ Status: Full Time
 Bronlocatie: SoFi Stadium
 USA - Paraguay  4-1
 DTEND;TZID=Europe/Amsterdam:20260613T050000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260613T030000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Los Angeles\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:SoFi Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇺🇸 Verenigde Staten - 🇵🇾 Paraguay (4–1)
 TRANSP:OPAQUE
 UID:fcd79d04550085d73af23fd1356b37a5@chatgpt-wk2026
 URL;VALUE=URI:
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep A. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep A. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760441
+Status: Full Time
+Bronlocatie: Estadio Akron
 Live bron: ESPN
 Wedstrijd-id: 760441
 Status: Full Time
@@ -106,19 +118,23 @@ Wedstrijd-id: 760441
 Status: Full Time
 Bronlocatie: Estadio Akron
 DTEND;TZID=Europe/Amsterdam:20260619T050000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260619T030000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Zapopan\, Mexico
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Estadio Akron
+SEQUENCE:6
 SUMMARY:WK: 🇲🇽 Mexico - 🇰🇷 Zuid-Korea (1–0)
 TRANSP:OPAQUE
 UID:12a80e720b73f671a41249354572321d@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep G. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep G. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760476
+Status: Full Time
+Bronlocatie: Lumen Field
 Live bron: ESPN
 Wedstrijd-id: 760476
 Status: Full Time
@@ -136,19 +152,23 @@ Wedstrijd-id: 760476
 Status: Full Time
 Bronlocatie: Lumen Field
 DTEND;TZID=Europe/Amsterdam:20260627T070000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260627T050000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Seattle\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Lumen Field
+SEQUENCE:6
 SUMMARY:WK: 🇪🇬 Egypte - 🇮🇷 Iran (1–1)
 TRANSP:OPAQUE
 UID:2b72010900aaec27c8b13c6a3ae75e2e@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep J. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep J. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760433
+Status: Full Time
+Bronlocatie: GEHA Field at Arrowhead Stadium
 Live bron: ESPN
 Wedstrijd-id: 760433
 Status: Full Time
@@ -166,19 +186,19 @@ Wedstrijd-id: 760433
 Status: Full Time
 Bronlocatie: GEHA Field at Arrowhead Stadium
 DTEND;TZID=Europe/Amsterdam:20260617T050000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260617T030000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Kansas City\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:GEHA Field at Arrowhead Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇦🇷 Argentinië - 🇩🇿 Algerije (3–0)
 TRANSP:OPAQUE
 UID:188fa463b432daae2f186b5c523e5802@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Halve finale - wedstrijd 102. Bron: FIFA/Sky Sports-speelschema
- \\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd
-  naar Europe/Amsterdam.
+ \\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteer
+ d naar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760515
 Status: Scheduled
@@ -198,19 +218,23 @@ Bronlocatie: Mercedes-Benz Stadium
 Knock-outfase: wedstrijd 102. Deelnemers bijgewerkt in Nederlandse aanduidi
  ng.
 DTEND;TZID=Europe/Amsterdam:20260715T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260715T210000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Atlanta\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Kwartfinale 3 Winner - Kwartfinale 4 Winner
 TRANSP:OPAQUE
 UID:f09888a25cc60ccfdd1076504af578b0@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep C. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep C. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760419
+Status: Full Time
+Bronlocatie: MetLife Stadium
 Live bron: ESPN
 Wedstrijd-id: 760419
 Status: Full Time
@@ -229,19 +253,23 @@ Status: Full Time
 Bronlocatie: MetLife Stadium
 Brazilië - Marokko 1-1
 DTEND;TZID=Europe/Amsterdam:20260614T020000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260614T000000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:New Jersey\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:MetLife Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇧🇷 Brazilië - 🇲🇦 Marokko (1–1)
 TRANSP:OPAQUE
 UID:04c02a0e5f2440a65d228e812d5c78db@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep I. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep I. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760457
+Status: Full Time
+Bronlocatie: Lincoln Financial Field
 Live bron: ESPN
 Wedstrijd-id: 760457
 Status: Full Time
@@ -259,19 +287,23 @@ Wedstrijd-id: 760457
 Status: Full Time
 Bronlocatie: Lincoln Financial Field
 DTEND;TZID=Europe/Amsterdam:20260623T010000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260622T230000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Philadelphia\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Lincoln Financial Field
+SEQUENCE:6
 SUMMARY:WK: 🇫🇷 Frankrijk - 🇮🇶 Irak (3–0)
 TRANSP:OPAQUE
 UID:2ef96e9f6dbf4590e61b6967a1b22940@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep K. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep K. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760459
+Status: Full Time
+Bronlocatie: Estadio Akron
 Live bron: ESPN
 Wedstrijd-id: 760459
 Status: Full Time
@@ -289,19 +321,19 @@ Wedstrijd-id: 760459
 Status: Full Time
 Bronlocatie: Estadio Akron
 DTEND;TZID=Europe/Amsterdam:20260624T060000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260624T040000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Zapopan\, Mexico
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Estadio Akron
+SEQUENCE:6
 SUMMARY:WK: 🇨🇴 Colombia - 🇨🇩 DR Congo (1–0)
 TRANSP:OPAQUE
 UID:9551652fd744bc3115be855e02c0da1d@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Halve finale - wedstrijd 101. Bron: FIFA/Sky Sports-speelschema
- \\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd
-  naar Europe/Amsterdam.
+ \\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteer
+ d naar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760514
 Status: Scheduled
@@ -321,19 +353,23 @@ Bronlocatie: AT&T Stadium
 Knock-outfase: wedstrijd 101. Deelnemers bijgewerkt in Nederlandse aanduidi
  ng.
 DTEND;TZID=Europe/Amsterdam:20260714T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260714T210000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Arlington\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Kwartfinale 1 Winner - Kwartfinale 2 Winner
 TRANSP:OPAQUE
 UID:ed8f72905cba74aa6c0b347e6ffbb889@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep E. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep E. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760473
+Status: Full Time
+Bronlocatie: Lincoln Financial Field
 Live bron: ESPN
 Wedstrijd-id: 760473
 Status: Full Time
@@ -351,19 +387,19 @@ Wedstrijd-id: 760468
 Status: Full Time
 Bronlocatie: MetLife Stadium
 DTEND;TZID=Europe/Amsterdam:20260626T000000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260625T220000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:New Jersey\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Lincoln Financial Field
+SEQUENCE:6
 SUMMARY:WK: 🇨🇼 Curaçao - 🇨🇮 Ivoorkust (0–2)
 TRANSP:OPAQUE
 UID:d28cee910ab06f6f309066ad0c25bcf6@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 74. Bron: FIFA/Sky Sports-speelschema\\\
- \\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd na
- ar Europe/Amsterdam.
+ \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
+ aar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760489
 Status: Scheduled
@@ -383,19 +419,23 @@ Bronlocatie: Gillette Stadium
 Knock-outfase: wedstrijd 74. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260630T003000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260629T223000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Foxborough\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🇩🇪 Duitsland - 🇵🇾 Paraguay
 TRANSP:OPAQUE
 UID:f837be95c0532f15f6385966131fe158@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep L. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep L. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760437
+Status: Full Time
+Bronlocatie: AT&T Stadium
 Live bron: ESPN
 Wedstrijd-id: 760437
 Status: Full Time
@@ -413,19 +453,19 @@ Wedstrijd-id: 760437
 Status: Full Time
 Bronlocatie: AT&T Stadium
 DTEND;TZID=Europe/Amsterdam:20260618T000000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260617T220000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Arlington\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:AT&T Stadium
+SEQUENCE:6
 SUMMARY:WK: 🏴 Engeland - 🇭🇷 Kroatië (4–2)
 TRANSP:OPAQUE
 UID:8cb1be05b23fc64fceb3434af695268d@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Troostfinale - wedstrijd 103. Bron: FIFA/Sky Sports-speelschema
- \\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd
-  naar Europe/Amsterdam.
+ \\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteer
+ d naar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760516
 Status: Scheduled
@@ -445,19 +485,23 @@ Bronlocatie: Hard Rock Stadium
 Knock-outfase: wedstrijd 103. Deelnemers bijgewerkt in Nederlandse aanduidi
  ng.
 DTEND;TZID=Europe/Amsterdam:20260719T010000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260718T230000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Miami\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Halve finale 1 Loser - Halve finale 2 Loser
 TRANSP:OPAQUE
 UID:35f7f5757cd9a854c64a70de9b6a4fb7@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep J. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep J. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760455
+Status: Full Time
+Bronlocatie: Levi's Stadium
 Live bron: ESPN
 Wedstrijd-id: 760455
 Status: Full Time
@@ -475,19 +519,23 @@ Wedstrijd-id: 760455
 Status: Full Time
 Bronlocatie: Levi's Stadium
 DTEND;TZID=Europe/Amsterdam:20260623T070000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260623T050000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Santa Clara\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Levi's Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇯🇴 Jordanië - 🇩🇿 Algerije (1–2)
 TRANSP:OPAQUE
 UID:332e1bfdf04dfe1a20931e0bbb2cabbf@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep K. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep K. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760435
+Status: Full Time
+Bronlocatie: NRG Stadium
 Live bron: ESPN
 Wedstrijd-id: 760435
 Status: Full Time
@@ -505,19 +553,23 @@ Wedstrijd-id: 760435
 Status: Full Time
 Bronlocatie: NRG Stadium
 DTEND;TZID=Europe/Amsterdam:20260617T210000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260617T190000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Houston\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:NRG Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇵🇹 Portugal - 🇨🇩 DR Congo (1–1)
 TRANSP:OPAQUE
 UID:1688289fbdfefbae51fe2a4b80bd1260@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep F. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m. Nederland-Japan. 2-2
+DESCRIPTION:Groep F. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am. Nederland-Japan. 2-2
+Live bron: ESPN
+Wedstrijd-id: 760425
+Status: Full Time
+Bronlocatie: AT&T Stadium
 Live bron: ESPN
 Wedstrijd-id: 760425
 Status: Full Time
@@ -535,19 +587,23 @@ Wedstrijd-id: 760425
 Status: Full Time
 Bronlocatie: AT&T Stadium
 DTEND;TZID=Europe/Amsterdam:20260615T000000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260614T220000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Arlington\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:AT&T Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇳🇱 Nederland - 🇯🇵 Japan (2–2)
 TRANSP:OPAQUE
 UID:784ff5f9a9b28c1b677f8eef1b74a886@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep B. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep B. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760420
+Status: Full Time
+Bronlocatie: Levi's Stadium
 Live bron: ESPN
 Wedstrijd-id: 760420
 Status: Full Time
@@ -567,19 +623,23 @@ Bronlocatie: Levi's Stadium
 Qatar - Zwitserland 1-1
 
 DTEND;TZID=Europe/Amsterdam:20260613T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260613T210000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Santa Clara\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Levi's Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇶🇦 Qatar - 🇨🇭 Zwitserland (1–1)
 TRANSP:OPAQUE
 UID:035afc3fc648a5bc3dcfd841717e537c@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep F. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep F. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760449
+Status: Full Time
+Bronlocatie: Estadio BBVA
 Live bron: ESPN
 Wedstrijd-id: 760449
 Status: Full Time
@@ -597,19 +657,23 @@ Wedstrijd-id: 760449
 Status: Full Time
 Bronlocatie: Estadio BBVA
 DTEND;TZID=Europe/Amsterdam:20260621T080000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260621T060000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Guadalupe\, Mexico
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Estadio BBVA
+SEQUENCE:6
 SUMMARY:WK: 🇹🇳 Tunesië - 🇯🇵 Japan (0–4)
 TRANSP:OPAQUE
 UID:dcd52ebd319e8279c407cdaf8afcee07@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep D. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep D. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760469
+Status: Full Time
+Bronlocatie: Levi's Stadium
 Live bron: ESPN
 Wedstrijd-id: 760469
 Status: Full Time
@@ -627,19 +691,19 @@ Wedstrijd-id: 760470
 Status: Full Time
 Bronlocatie: SoFi Stadium
 DTEND;TZID=Europe/Amsterdam:20260626T060000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260626T040000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Los Angeles\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Levi's Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇵🇾 Paraguay - 🇦🇺 Australië (0–0)
 TRANSP:OPAQUE
 UID:f30bcf9538f4d009133a572ddfc0ff76@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 88. Bron: FIFA/Sky Sports-speelschema\\\
- \\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd na
- ar Europe/Amsterdam.
+ \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
+ aar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760499
 Status: Scheduled
@@ -659,19 +723,23 @@ Bronlocatie: AT&T Stadium
 Knock-outfase: wedstrijd 88. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260703T220000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260703T200000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Arlington\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🇦🇺 Australië - 🇪🇬 Egypte
 TRANSP:OPAQUE
 UID:6063e26b33fafe9192df0fabe7ac7a76@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep J. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep J. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760484
+Status: Scheduled
+Bronlocatie: GEHA Field at Arrowhead Stadium
 Live bron: ESPN
 Wedstrijd-id: 760484
 Status: Scheduled
@@ -689,19 +757,23 @@ Wedstrijd-id: 760484
 Status: Scheduled
 Bronlocatie: GEHA Field at Arrowhead Stadium
 DTEND;TZID=Europe/Amsterdam:20260628T060000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260628T040000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Kansas City\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:GEHA Field at Arrowhead Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇩🇿 Algerije - 🇦🇹 Oostenrijk
 TRANSP:OPAQUE
 UID:a3ef0f7701da0a5b57daf8051831a0ca@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep K. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep K. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760482
+Status: Halftime
+Bronlocatie: Mercedes-Benz Stadium
 Live bron: ESPN
 Wedstrijd-id: 760482
 Status: Scheduled
@@ -719,19 +791,23 @@ Wedstrijd-id: 760482
 Status: Scheduled
 Bronlocatie: Mercedes-Benz Stadium
 DTEND;TZID=Europe/Amsterdam:20260628T033000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260628T013000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Atlanta\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Mercedes-Benz Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇨🇩 DR Congo - 🇺🇿 Oezbekistan
 TRANSP:OPAQUE
 UID:7f1d678339712b23c88d4a50af77763c@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep B. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep B. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760439
+Status: Full Time
+Bronlocatie: SoFi Stadium
 Live bron: ESPN
 Wedstrijd-id: 760439
 Status: Full Time
@@ -749,19 +825,23 @@ Wedstrijd-id: 760439
 Status: Full Time
 Bronlocatie: SoFi Stadium
 DTEND;TZID=Europe/Amsterdam:20260618T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260618T210000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Los Angeles\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:SoFi Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇨🇭 Zwitserland - Bosnia-Herzegovina (4–1)
 TRANSP:OPAQUE
 UID:da0d073c10b0e95c20826e8ce14c8925@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 81. Bron: FIFA/Sky Sports-speelschema\\\
- \\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd na
- ar Europe/Amsterdam.
+ \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
+ aar Europe/Amsterdam.
+Live bron: ESPN
+Wedstrijd-id: 760494
+Status: Scheduled
+Bronlocatie: Levi's Stadium
 Live bron: ESPN
 Wedstrijd-id: 760494
 Status: Scheduled
@@ -781,19 +861,19 @@ Bronlocatie: Levi's Stadium
 Knock-outfase: wedstrijd 81. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260702T040000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260702T020000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Santa Clara\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Levi's Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇺🇸 Verenigde Staten - Bosnia-Herzegovina
 TRANSP:OPAQUE
 UID:4263afa16feb5004a67b8e4ddef13200@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 80. Bron: FIFA/Sky Sports-speelschema\\\
- \\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd na
- ar Europe/Amsterdam.
+ \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
+ aar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760495
 Status: Scheduled
@@ -813,19 +893,19 @@ Bronlocatie: Mercedes-Benz Stadium
 Knock-outfase: wedstrijd 80. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260701T200000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260701T180000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Atlanta\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🏴 Engeland - Third Place Groep E/H/I/J/K
 TRANSP:OPAQUE
 UID:3d87c23c62ac53af4144900d125acccf@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Achtste finale - wedstrijd 90. Bron: FIFA/Sky Sports-speelschem
- a\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteer
- d naar Europe/Amsterdam.
+ a\\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconvertee
+ rd naar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760502
 Status: Scheduled
@@ -845,19 +925,23 @@ Bronlocatie: NRG Stadium
 Knock-outfase: wedstrijd 90. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260704T210000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260704T190000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Houston\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Laatste 32 1 Winner - Laatste 32 3 Winner
 TRANSP:OPAQUE
 UID:7d46e78c43ff023da9a1782c3fa79785@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep J. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep J. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760456
+Status: Full Time
+Bronlocatie: AT&T Stadium
 Live bron: ESPN
 Wedstrijd-id: 760456
 Status: Full Time
@@ -875,19 +959,23 @@ Wedstrijd-id: 760456
 Status: Full Time
 Bronlocatie: AT&T Stadium
 DTEND;TZID=Europe/Amsterdam:20260622T210000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260622T190000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Arlington\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:AT&T Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇦🇷 Argentinië - 🇦🇹 Oostenrijk (2–0)
 TRANSP:OPAQUE
 UID:62ea187f70a57caa43cec9fdef014d46@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep B. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep B. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760416
+Status: Full Time
+Bronlocatie: BMO Field
 Live bron: ESPN
 Wedstrijd-id: 760416
 Status: Full Time
@@ -906,19 +994,23 @@ Status: Full Time
 Bronlocatie: BMO Field
 Canada-Bosnië Herz   1-1
 DTEND;TZID=Europe/Amsterdam:20260612T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260612T210000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Toronto\, Canada
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:BMO Field
+SEQUENCE:6
 SUMMARY:WK: 🇨🇦 Canada - Bosnia-Herzegovina (1–1)
 TRANSP:OPAQUE
 UID:04563d8ee80fd013002a5006ffd0aa5e@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep L. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep L. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760434
+Status: Full Time
+Bronlocatie: BMO Field
 Live bron: ESPN
 Wedstrijd-id: 760434
 Status: Full Time
@@ -936,19 +1028,19 @@ Wedstrijd-id: 760434
 Status: Full Time
 Bronlocatie: BMO Field
 DTEND;TZID=Europe/Amsterdam:20260618T030000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260618T010000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Toronto\, Canada
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:BMO Field
+SEQUENCE:6
 SUMMARY:WK: 🇬🇭 Ghana - 🇵🇦 Panama (1–0)
 TRANSP:OPAQUE
 UID:5085fcb4d5cd5a44792854c4d2ab0be7@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep G. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep G. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
 Live bron: ESPN
 Wedstrijd-id: 760476
 Status: Full Time
@@ -966,19 +1058,23 @@ Wedstrijd-id: 760477
 Status: Full Time
 Bronlocatie: BC Place
 DTEND;TZID=Europe/Amsterdam:20260627T070000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260627T050000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Vancouver\, Canada
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🇪🇬 Egypte - 🇮🇷 Iran (1–1)
 TRANSP:OPAQUE
 UID:602c19020933f56a2463cfe22505a3aa@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep H. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep H. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760429
+Status: Full Time
+Bronlocatie: Hard Rock Stadium
 Live bron: ESPN
 Wedstrijd-id: 760429
 Status: Full Time
@@ -996,19 +1092,23 @@ Wedstrijd-id: 760429
 Status: Full Time
 Bronlocatie: Hard Rock Stadium
 DTEND;TZID=Europe/Amsterdam:20260616T020000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260616T000000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Miami\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Hard Rock Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇸🇦 Saoedi-Arabië - 🇺🇾 Uruguay (1–1)
 TRANSP:OPAQUE
 UID:6120ea646c0412a45698b8b279bda85f@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep I. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep I. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760432
+Status: Full Time
+Bronlocatie: MetLife Stadium
 Live bron: ESPN
 Wedstrijd-id: 760432
 Status: Full Time
@@ -1026,19 +1126,19 @@ Wedstrijd-id: 760432
 Status: Full Time
 Bronlocatie: MetLife Stadium
 DTEND;TZID=Europe/Amsterdam:20260616T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260616T210000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:New Jersey\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:MetLife Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇫🇷 Frankrijk - 🇸🇳 Senegal (3–1)
 TRANSP:OPAQUE
 UID:05c0be02d45de4d6c7950a22b13fd940@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep E. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep E. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
 Live bron: ESPN
 Wedstrijd-id: 760473
 Status: Full Time
@@ -1056,19 +1156,23 @@ Wedstrijd-id: 760473
 Status: Full Time
 Bronlocatie: Lincoln Financial Field
 DTEND;TZID=Europe/Amsterdam:20260626T000000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260625T220000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Philadelphia\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🇨🇼 Curaçao - 🇨🇮 Ivoorkust (0–2)
 TRANSP:OPAQUE
 UID:78273718c5d7470399a0b3c95b4c198d@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep H. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep H. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760453
+Status: Full Time
+Bronlocatie: Mercedes-Benz Stadium
 Live bron: ESPN
 Wedstrijd-id: 760453
 Status: Full Time
@@ -1086,19 +1190,23 @@ Wedstrijd-id: 760453
 Status: Full Time
 Bronlocatie: Mercedes-Benz Stadium
 DTEND;TZID=Europe/Amsterdam:20260621T200000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260621T180000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Atlanta\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Mercedes-Benz Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇪🇸 Spanje - 🇸🇦 Saoedi-Arabië (4–0)
 TRANSP:OPAQUE
 UID:245fad81119778ac5b4268aea7d65a04@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 83. Bron: FIFA/Sky Sports-speelschema\\\
- \\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd na
- ar Europe/Amsterdam.
+ \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
+ aar Europe/Amsterdam.
+Live bron: ESPN
+Wedstrijd-id: 760496
+Status: Scheduled
+Bronlocatie: BMO Field
 Live bron: ESPN
 Wedstrijd-id: 760496
 Status: Scheduled
@@ -1118,19 +1226,19 @@ Bronlocatie: BMO Field
 Knock-outfase: wedstrijd 83. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260703T030000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260703T010000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Toronto\, Canada
-SEQUENCE:5
-SUMMARY:WK: Groep K 2nd Place - 🇭🇷 Kroatië
+LAST-MODIFIED:20260628T002841Z
+LOCATION:BMO Field
+SEQUENCE:6
+SUMMARY:WK: Group K 2nd Place - 🇭🇷 Kroatië
 TRANSP:OPAQUE
 UID:4b8abe00c4d6c275c65f11a162236de8@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 77. Bron: FIFA/Sky Sports-speelschema\\\
- \\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd na
- ar Europe/Amsterdam.
+ \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
+ aar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760492
 Status: Scheduled
@@ -1150,19 +1258,23 @@ Bronlocatie: MetLife Stadium
 Knock-outfase: wedstrijd 77. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260701T010000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260630T230000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:New Jersey\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🇫🇷 Frankrijk - 🇸🇪 Zweden
 TRANSP:OPAQUE
 UID:bac590b54fa7ef77843f16e4e90f1563@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep G. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep G. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760426
+Status: Full Time
+Bronlocatie: Lumen Field
 Live bron: ESPN
 Wedstrijd-id: 760426
 Status: Full Time
@@ -1181,19 +1293,23 @@ Status: Full Time
 Bronlocatie: Lumen Field
 België- Egypte 1-1 
 DTEND;TZID=Europe/Amsterdam:20260615T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260615T210000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Seattle\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Lumen Field
+SEQUENCE:6
 SUMMARY:WK: 🇧🇪 België - 🇪🇬 Egypte (1–1)
 TRANSP:OPAQUE
 UID:6adc8cee49687d442ace1a8b9b787f1b@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep A. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep A. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760438
+Status: Full Time
+Bronlocatie: Mercedes-Benz Stadium
 Live bron: ESPN
 Wedstrijd-id: 760438
 Status: Full Time
@@ -1211,19 +1327,23 @@ Wedstrijd-id: 760438
 Status: Full Time
 Bronlocatie: Mercedes-Benz Stadium
 DTEND;TZID=Europe/Amsterdam:20260618T200000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260618T180000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Atlanta\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Mercedes-Benz Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇨🇿 Tsjechië - 🇿🇦 Zuid-Afrika (1–1)
 TRANSP:OPAQUE
 UID:587773d5d6aa111604e06971d12a76a1@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep K. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep K. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760481
+Status: Halftime
+Bronlocatie: Hard Rock Stadium
 Live bron: ESPN
 Wedstrijd-id: 760481
 Status: Scheduled
@@ -1241,19 +1361,23 @@ Wedstrijd-id: 760481
 Status: Scheduled
 Bronlocatie: Hard Rock Stadium
 DTEND;TZID=Europe/Amsterdam:20260628T033000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260628T013000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Miami\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Hard Rock Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇨🇴 Colombia - 🇵🇹 Portugal
 TRANSP:OPAQUE
 UID:0c2de2e8a9f43723ef7b9a808081eeb5@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep J. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep J. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760431
+Status: Full Time
+Bronlocatie: Levi's Stadium
 Live bron: ESPN
 Wedstrijd-id: 760431
 Status: Full Time
@@ -1271,19 +1395,23 @@ Wedstrijd-id: 760431
 Status: Full Time
 Bronlocatie: Levi's Stadium
 DTEND;TZID=Europe/Amsterdam:20260617T080000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260617T060000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Santa Clara\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Levi's Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇦🇹 Oostenrijk - 🇯🇴 Jordanië (3–1)
 TRANSP:OPAQUE
 UID:4b7e434b083e9ce1710e19d942664f91@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep H. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep H. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760450
+Status: Full Time
+Bronlocatie: Hard Rock Stadium
 Live bron: ESPN
 Wedstrijd-id: 760450
 Status: Full Time
@@ -1301,19 +1429,23 @@ Wedstrijd-id: 760450
 Status: Full Time
 Bronlocatie: Hard Rock Stadium
 DTEND;TZID=Europe/Amsterdam:20260622T020000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260622T000000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Miami\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Hard Rock Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇺🇾 Uruguay - 🇨🇻 Kaapverdië (2–2)
 TRANSP:OPAQUE
 UID:a3663ed35d012a55527345ad0e44b719@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep I. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep I. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760475
+Status: Full Time
+Bronlocatie: Gillette Stadium
 Live bron: ESPN
 Wedstrijd-id: 760475
 Status: Full Time
@@ -1331,19 +1463,19 @@ Wedstrijd-id: 760474
 Status: Full Time
 Bronlocatie: BMO Field
 DTEND;TZID=Europe/Amsterdam:20260626T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260626T210000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Toronto\, Canada
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Gillette Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇳🇴 Noorwegen - 🇫🇷 Frankrijk (1–4)
 TRANSP:OPAQUE
 UID:2a6837d63a15e8c82871b418362e5cf5@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kwartfinale - wedstrijd 100. Bron: FIFA/Sky Sports-speelschema\
- \\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd 
- naar Europe/Amsterdam.
+ \\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd
+  naar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760513
 Status: Scheduled
@@ -1363,19 +1495,19 @@ Bronlocatie: GEHA Field at Arrowhead Stadium
 Knock-outfase: wedstrijd 100. Deelnemers bijgewerkt in Nederlandse aanduidi
  ng.
 DTEND;TZID=Europe/Amsterdam:20260712T050000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260712T030000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Kansas City\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Achtste finale 7 Winner - Achtste finale 8 Winner
 TRANSP:OPAQUE
 UID:c080cafad2a95428d899b7eb1b727fa1@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kwartfinale - wedstrijd 98. Bron: FIFA/Sky Sports-speelschema\\
- \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
- aar Europe/Amsterdam.
+ \\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd 
+ naar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760511
 Status: Scheduled
@@ -1395,19 +1527,19 @@ Bronlocatie: SoFi Stadium
 Knock-outfase: wedstrijd 98. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260710T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260710T210000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Los Angeles\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Achtste finale 5 Winner - Achtste finale 6 Winner
 TRANSP:OPAQUE
 UID:d5860e9d3fc46872b7fedc05240d6c6e@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Finaleeeeeeeee - wedstrijd 104. Bron: FIFA/Sky Sports-speelsche
- ma\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconvertee
- rd naar Europe/Amsterdam.
+DESCRIPTION:Finaleeeeeeeeee - wedstrijd 104. Bron: FIFA/Sky Sports-speelsch
+ ema\\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconvert
+ eerd naar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760517
 Status: Scheduled
@@ -1427,19 +1559,19 @@ Bronlocatie: MetLife Stadium
 Knock-outfase: wedstrijd 104. Deelnemers bijgewerkt in Nederlandse aanduidi
  ng.
 DTEND;TZID=Europe/Amsterdam:20260719T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260719T210000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:New Jersey\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Halve finale 1 Winner - Halve finale 2 Winner
 TRANSP:OPAQUE
 UID:5ccc9ceb3db0a273df6b55005d700c2f@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 76. Bron: FIFA/Sky Sports-speelschema\\\
- \\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd na
- ar Europe/Amsterdam.
+ \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
+ aar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760487
 Status: Scheduled
@@ -1459,19 +1591,23 @@ Bronlocatie: NRG Stadium
 Knock-outfase: wedstrijd 76. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260629T210000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260629T190000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Houston\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🇧🇷 Brazilië - 🇯🇵 Japan
 TRANSP:OPAQUE
 UID:1f9a253f5d130b5b7950a65519162ce7@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep B. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep B. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760462
+Status: Full Time
+Bronlocatie: Lumen Field
 Live bron: ESPN
 Wedstrijd-id: 760462
 Status: Full Time
@@ -1489,19 +1625,23 @@ Wedstrijd-id: 760463
 Status: Full Time
 Bronlocatie: BC Place
 DTEND;TZID=Europe/Amsterdam:20260624T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260624T210000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Vancouver\, Canada
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Lumen Field
+SEQUENCE:6
 SUMMARY:WK: Bosnia-Herzegovina - 🇶🇦 Qatar (3–1)
 TRANSP:OPAQUE
 UID:71711b76f8b6d33cd89a0f9d39cc515f@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep C. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep C. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760444
+Status: Full Time
+Bronlocatie: Lincoln Financial Field
 Live bron: ESPN
 Wedstrijd-id: 760444
 Status: Full Time
@@ -1519,19 +1659,23 @@ Wedstrijd-id: 760444
 Status: Full Time
 Bronlocatie: Lincoln Financial Field
 DTEND;TZID=Europe/Amsterdam:20260620T043000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260620T023000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Philadelphia\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Lincoln Financial Field
+SEQUENCE:6
 SUMMARY:WK: 🇧🇷 Brazilië - 🇭🇹 Haïti (3–0)
 TRANSP:OPAQUE
 UID:93c77691fced0bff66e47e192402be8e@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep D. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep D. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760442
+Status: Full Time
+Bronlocatie: Lumen Field
 Live bron: ESPN
 Wedstrijd-id: 760442
 Status: Full Time
@@ -1549,19 +1693,19 @@ Wedstrijd-id: 760442
 Status: Full Time
 Bronlocatie: Lumen Field
 DTEND;TZID=Europe/Amsterdam:20260619T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260619T210000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Seattle\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Lumen Field
+SEQUENCE:6
 SUMMARY:WK: 🇺🇸 Verenigde Staten - 🇦🇺 Australië (2–0)
 TRANSP:OPAQUE
 UID:ffb124feb15f23e4d0356fca28fbf20c@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep B. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep B. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
 Live bron: ESPN
 Wedstrijd-id: 760462
 Status: Full Time
@@ -1579,19 +1723,23 @@ Wedstrijd-id: 760462
 Status: Full Time
 Bronlocatie: Lumen Field
 DTEND;TZID=Europe/Amsterdam:20260624T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260624T210000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Seattle\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Bosnia-Herzegovina - 🇶🇦 Qatar (3–1)
 TRANSP:OPAQUE
 UID:e3114c321fb4c3c04922ad4643928bfd@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep F. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep F. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760424
+Status: Full Time
+Bronlocatie: Estadio BBVA
 Live bron: ESPN
 Wedstrijd-id: 760424
 Status: Full Time
@@ -1610,19 +1758,19 @@ Status: Full Time
 Bronlocatie: Estadio BBVA
 Zweden-Tunesië 5-1
 DTEND;TZID=Europe/Amsterdam:20260615T060000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260615T040000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Guadalupe\, Mexico
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Estadio BBVA
+SEQUENCE:6
 SUMMARY:WK: 🇸🇪 Zweden - 🇹🇳 Tunesië (5–1)
 TRANSP:OPAQUE
 UID:a089ba2b5e41ee3a8a98c977d5ab41e1@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Achtste finale - wedstrijd 93. Bron: FIFA/Sky Sports-speelschem
- a\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteer
- d naar Europe/Amsterdam.
+ a\\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconvertee
+ rd naar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760506
 Status: Scheduled
@@ -1642,19 +1790,23 @@ Bronlocatie: AT&T Stadium
 Knock-outfase: wedstrijd 93. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260706T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260706T210000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Arlington\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Laatste 32 11 Winner - Laatste 32 12 Winner
 TRANSP:OPAQUE
 UID:bd10fd788ff15c4fc72abd0883a88c4d@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep E. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep E. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760446
+Status: Full Time
+Bronlocatie: GEHA Field at Arrowhead Stadium
 Live bron: ESPN
 Wedstrijd-id: 760446
 Status: Full Time
@@ -1672,19 +1824,23 @@ Wedstrijd-id: 760446
 Status: Full Time
 Bronlocatie: GEHA Field at Arrowhead Stadium
 DTEND;TZID=Europe/Amsterdam:20260621T040000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260621T020000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Kansas City\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:GEHA Field at Arrowhead Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇪🇨 Ecuador - 🇨🇼 Curaçao (0–0)
 TRANSP:OPAQUE
 UID:3ec161046746bfcb681b4096b3a6b634@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep L. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep L. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760460
+Status: Full Time
+Bronlocatie: BMO Field
 Live bron: ESPN
 Wedstrijd-id: 760460
 Status: Full Time
@@ -1702,19 +1858,23 @@ Wedstrijd-id: 760460
 Status: Full Time
 Bronlocatie: BMO Field
 DTEND;TZID=Europe/Amsterdam:20260624T030000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260624T010000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Foxborough\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:BMO Field
+SEQUENCE:6
 SUMMARY:WK: 🇵🇦 Panama - 🇭🇷 Kroatië (0–1)
 TRANSP:OPAQUE
 UID:0c9f7e3b3942a0c2ef4c1a9c40b01b75@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Achtste finale - wedstrijd 92. Bron: FIFA/Sky Sports-speelschem
- a\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteer
- d naar Europe/Amsterdam.
+ a\\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconvertee
+ rd naar Europe/Amsterdam.
+Live bron: ESPN
+Wedstrijd-id: 760505
+Status: Scheduled
+Bronlocatie: Estadio Banorte
 Live bron: ESPN
 Wedstrijd-id: 760505
 Status: Scheduled
@@ -1734,19 +1894,23 @@ Bronlocatie: Estadio Banorte
 Knock-outfase: wedstrijd 92. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260706T040000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260706T020000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Mexico City\, Mexico
-SEQUENCE:5
-SUMMARY:WK: Laatste 32 7 Winner - Laatste 32 8 Winner
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Estadio Banorte
+SEQUENCE:6
+SUMMARY:WK: Round of 32 7 Winner - Round of 32 8 Winner
 TRANSP:OPAQUE
 UID:0ae4b6e9d6f051ad978f769e3b4111c0@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep A. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep A. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760467
+Status: Full Time
+Bronlocatie: Estadio Banorte
 Live bron: ESPN
 Wedstrijd-id: 760467
 Status: Full Time
@@ -1764,19 +1928,23 @@ Wedstrijd-id: 760467
 Status: Full Time
 Bronlocatie: Estadio Banorte
 DTEND;TZID=Europe/Amsterdam:20260625T050000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260625T030000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Mexico City\, Mexico
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Estadio Banorte
+SEQUENCE:6
 SUMMARY:WK: 🇨🇿 Tsjechië - 🇲🇽 Mexico (0–3)
 TRANSP:OPAQUE
 UID:d730453aa646966e8a1d4ed833fcf894@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep C. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep C. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760418
+Status: Full Time
+Bronlocatie: Gillette Stadium
 Live bron: ESPN
 Wedstrijd-id: 760418
 Status: Full Time
@@ -1795,20 +1963,24 @@ Status: Full Time
 Bronlocatie: Gillette Stadium
 Haïti - Schotland 0-1
 DTEND;TZID=Europe/Amsterdam:20260614T050000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260614T030000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Foxborough\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Gillette Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇭🇹 Haïti - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schotland (0–1
  )
 TRANSP:OPAQUE
 UID:1a060340b0698d4b3894029ab53cb273@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep H. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep H. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760428
+Status: Full Time
+Bronlocatie: Mercedes-Benz Stadium
 Live bron: ESPN
 Wedstrijd-id: 760428
 Status: Full Time
@@ -1828,19 +2000,23 @@ Bronlocatie: Mercedes-Benz Stadium
 Spanje-Kaapverdië 0-0
 
 DTEND;TZID=Europe/Amsterdam:20260615T200000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260615T180000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Atlanta\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Mercedes-Benz Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇪🇸 Spanje - 🇨🇻 Kaapverdië (0–0)
 TRANSP:OPAQUE
 UID:bc6d6bfe13fe2bbeffc3e23c629b572b@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep I. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep I. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760454
+Status: Full Time
+Bronlocatie: MetLife Stadium
 Live bron: ESPN
 Wedstrijd-id: 760454
 Status: Full Time
@@ -1858,19 +2034,19 @@ Wedstrijd-id: 760454
 Status: Full Time
 Bronlocatie: MetLife Stadium
 DTEND;TZID=Europe/Amsterdam:20260623T040000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260623T020000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Toronto\, Canada
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:MetLife Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇳🇴 Noorwegen - 🇸🇳 Senegal (3–2)
 TRANSP:OPAQUE
 UID:1f883a1af0b9a64e5db89f3e5ad179f7@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 82. Bron: FIFA/Sky Sports-speelschema\\\
- \\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd na
- ar Europe/Amsterdam.
+ \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
+ aar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760493
 Status: Scheduled
@@ -1890,19 +2066,23 @@ Bronlocatie: Lumen Field
 Knock-outfase: wedstrijd 82. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260702T000000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260701T220000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Seattle\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🇧🇪 België - Third Place Groep A/E/H/I/J
 TRANSP:OPAQUE
 UID:ba6a698103f69ceb14690b0050f9bc9a@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Achtste finale - wedstrijd 96. Bron: FIFA/Sky Sports-speelschem
- a\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteer
- d naar Europe/Amsterdam.
+ a\\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconvertee
+ rd naar Europe/Amsterdam.
+Live bron: ESPN
+Wedstrijd-id: 760508
+Status: Scheduled
+Bronlocatie: BC Place
 Live bron: ESPN
 Wedstrijd-id: 760508
 Status: Scheduled
@@ -1922,19 +2102,19 @@ Bronlocatie: BC Place
 Knock-outfase: wedstrijd 96. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260708T000000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260707T220000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Vancouver\, Canada
-SEQUENCE:5
-SUMMARY:WK: Laatste 32 13 Winner - Laatste 32 15 Winner
+LAST-MODIFIED:20260628T002841Z
+LOCATION:BC Place
+SEQUENCE:6
+SUMMARY:WK: Round of 32 13 Winner - Round of 32 15 Winner
 TRANSP:OPAQUE
 UID:e2b547b24cbad3b2d293f18ef99afe8a@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kwartfinale - wedstrijd 97. Bron: FIFA/Sky Sports-speelschema\\
- \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
- aar Europe/Amsterdam.
+ \\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd 
+ naar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760510
 Status: Scheduled
@@ -1954,19 +2134,23 @@ Bronlocatie: Gillette Stadium
 Knock-outfase: wedstrijd 97. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260710T000000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260709T220000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Foxborough\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Achtste finale 1 Winner - Achtste finale 2 Winner
 TRANSP:OPAQUE
 UID:5ce20228bd340fa6c6bff230068d22af@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep A. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep A. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760447
+Status: Full Time
+Bronlocatie: NRG Stadium
 Live bron: ESPN
 Wedstrijd-id: 760447
 Status: Full Time
@@ -1984,19 +2168,23 @@ Wedstrijd-id: 760447
 Status: Full Time
 Bronlocatie: NRG Stadium
 DTEND;TZID=Europe/Amsterdam:20260620T210000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260620T190000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Houston\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:NRG Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇳🇱 Nederland - 🇸🇪 Zweden (5–1)
 TRANSP:OPAQUE
 UID:448448cc1cf933964045afa9dacaae4f@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep H. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep H. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760478
+Status: Full Time
+Bronlocatie: NRG Stadium
 Live bron: ESPN
 Wedstrijd-id: 760478
 Status: Full Time
@@ -2014,19 +2202,19 @@ Wedstrijd-id: 760478
 Status: Full Time
 Bronlocatie: NRG Stadium
 DTEND;TZID=Europe/Amsterdam:20260627T040000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260627T020000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Houston\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:NRG Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇨🇻 Kaapverdië - 🇸🇦 Saoedi-Arabië (0–0)
 TRANSP:OPAQUE
 UID:5759c4f1c8c3cff35815a1b41483b50f@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Achtste finale - wedstrijd 94. Bron: FIFA/Sky Sports-speelschem
- a\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteer
- d naar Europe/Amsterdam.
+ a\\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconvertee
+ rd naar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760507
 Status: Scheduled
@@ -2046,19 +2234,19 @@ Bronlocatie: Lumen Field
 Knock-outfase: wedstrijd 94. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260707T040000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260707T020000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Seattle\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Laatste 32 9 Winner - Laatste 32 10 Winner
 TRANSP:OPAQUE
 UID:59c375dfcb0b8882fcf595318777a74a@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep A. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep A. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
 Live bron: ESPN
 Wedstrijd-id: 760467
 Status: Full Time
@@ -2076,19 +2264,23 @@ Wedstrijd-id: 760466
 Status: Full Time
 Bronlocatie: Estadio BBVA
 DTEND;TZID=Europe/Amsterdam:20260625T050000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260625T030000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Guadalupe\, Mexico
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🇨🇿 Tsjechië - 🇲🇽 Mexico (0–3)
 TRANSP:OPAQUE
 UID:0b2014cdaf4ef3ef4fcd904be30a2502@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep L. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep L. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760480
+Status: Full Time
+Bronlocatie: Lincoln Financial Field
 Live bron: ESPN
 Wedstrijd-id: 760480
 Status: Full Time
@@ -2106,19 +2298,23 @@ Wedstrijd-id: 760480
 Status: First Half
 Bronlocatie: Lincoln Financial Field
 DTEND;TZID=Europe/Amsterdam:20260628T010000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260627T230000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Philadelphia\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Lincoln Financial Field
+SEQUENCE:6
 SUMMARY:WK: 🇭🇷 Kroatië - 🇬🇭 Ghana (2–1)
 TRANSP:OPAQUE
 UID:5156dc0b0c4d8be3d15b9830b6e15f0b@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep G. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep G. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760451
+Status: Full Time
+Bronlocatie: SoFi Stadium
 Live bron: ESPN
 Wedstrijd-id: 760451
 Status: Full Time
@@ -2136,19 +2332,19 @@ Wedstrijd-id: 760451
 Status: Full Time
 Bronlocatie: SoFi Stadium
 DTEND;TZID=Europe/Amsterdam:20260621T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260621T210000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Los Angeles\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:SoFi Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇧🇪 België - 🇮🇷 Iran (0–0)
 TRANSP:OPAQUE
 UID:20291d857f440837e82207feb1f44ec6@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Achtste finale - wedstrijd 89. Bron: FIFA/Sky Sports-speelschem
- a\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteer
- d naar Europe/Amsterdam.
+ a\\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconvertee
+ rd naar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760503
 Status: Scheduled
@@ -2168,19 +2364,19 @@ Bronlocatie: Lincoln Financial Field
 Knock-outfase: wedstrijd 89. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260705T010000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260704T230000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Philadelphia\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Laatste 32 2 Winner - Laatste 32 5 Winner
 TRANSP:OPAQUE
 UID:91afd020bbc8702e78eb83aefd1ffef3@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Achtste finale - wedstrijd 95. Bron: FIFA/Sky Sports-speelschem
- a\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteer
- d naar Europe/Amsterdam.
+ a\\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconvertee
+ rd naar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760509
 Status: Scheduled
@@ -2200,19 +2396,19 @@ Bronlocatie: Mercedes-Benz Stadium
 Knock-outfase: wedstrijd 95. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260707T200000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260707T180000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Atlanta\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Laatste 32 14 Winner - Laatste 32 16 Winner
 TRANSP:OPAQUE
 UID:2c03c8b188646d5abb2239e704ea5c37@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Achtste finale - wedstrijd 91. Bron: FIFA/Sky Sports-speelschem
- a\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteer
- d naar Europe/Amsterdam.
+ a\\\\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconvertee
+ rd naar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760504
 Status: Scheduled
@@ -2232,19 +2428,23 @@ Bronlocatie: MetLife Stadium
 Knock-outfase: wedstrijd 91. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260706T000000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260705T220000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:New Jersey\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Laatste 32 4 Winner - Laatste 32 6 Winner
 TRANSP:OPAQUE
 UID:0969d241a42b487b2368ecea375be09c@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep E. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep E. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760422
+Status: Full Time
+Bronlocatie: NRG Stadium
 Live bron: ESPN
 Wedstrijd-id: 760422
 Status: Full Time
@@ -2263,19 +2463,23 @@ Status: Full Time
 Bronlocatie: NRG Stadium
 Duitsland-Curaçao  7-1
 DTEND;TZID=Europe/Amsterdam:20260614T210000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260614T190000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Houston\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:NRG Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇩🇪 Duitsland - 🇨🇼 Curaçao (7–1)
 TRANSP:OPAQUE
 UID:85e36ca4027d6d664b49c677aee44979@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep D. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep D. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760421
+Status: Full Time
+Bronlocatie: BC Place
 Live bron: ESPN
 Wedstrijd-id: 760421
 Status: Full Time
@@ -2294,19 +2498,23 @@ Status: Full Time
 Bronlocatie: BC Place
 Australië - Turkije 2-0
 DTEND;TZID=Europe/Amsterdam:20260614T080000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260614T060000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Vancouver\, Canada
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:BC Place
+SEQUENCE:6
 SUMMARY:WK: 🇦🇺 Australië - 🇹🇷 Turkije (2–0)
 TRANSP:OPAQUE
 UID:5b4216c687ea4e2896975d9731483101@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep L. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep L. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760458
+Status: Full Time
+Bronlocatie: Gillette Stadium
 Live bron: ESPN
 Wedstrijd-id: 760458
 Status: Full Time
@@ -2324,19 +2532,23 @@ Wedstrijd-id: 760458
 Status: Full Time
 Bronlocatie: Gillette Stadium
 DTEND;TZID=Europe/Amsterdam:20260624T000000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260623T220000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Foxborough\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Gillette Stadium
+SEQUENCE:6
 SUMMARY:WK: 🏴 Engeland - 🇬🇭 Ghana (0–0)
 TRANSP:OPAQUE
 UID:608e7879ff217e5c8c1c4d2c4fe81869@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep D. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep D. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760470
+Status: Full Time
+Bronlocatie: SoFi Stadium
 Live bron: ESPN
 Wedstrijd-id: 760469
 Status: Full Time
@@ -2354,19 +2566,23 @@ Wedstrijd-id: 760469
 Status: Full Time
 Bronlocatie: Levi's Stadium
 DTEND;TZID=Europe/Amsterdam:20260626T060000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260626T040000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Santa Clara\, Verenigde Staten
-SEQUENCE:5
-SUMMARY:WK: 🇵🇾 Paraguay - 🇦🇺 Australië (0–0)
+LAST-MODIFIED:20260628T002841Z
+LOCATION:SoFi Stadium
+SEQUENCE:6
+SUMMARY:WK: 🇹🇷 Turkije - 🇺🇸 Verenigde Staten (3–2)
 TRANSP:OPAQUE
 UID:ff73acc84d930f2a5014da097699c8a5@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep G. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep G. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760427
+Status: Full Time
+Bronlocatie: SoFi Stadium
 Live bron: ESPN
 Wedstrijd-id: 760427
 Status: Full Time
@@ -2384,19 +2600,23 @@ Wedstrijd-id: 760427
 Status: Full Time
 Bronlocatie: SoFi Stadium
 DTEND;TZID=Europe/Amsterdam:20260616T050000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260616T030000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Los Angeles\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:SoFi Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇮🇷 Iran - 🇳🇿 Nieuw-Zeeland (2–2)
 TRANSP:OPAQUE
 UID:f175b7fa24bf48403bfd4844584f17b4@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep I. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep I. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760430
+Status: Full Time
+Bronlocatie: Gillette Stadium
 Live bron: ESPN
 Wedstrijd-id: 760430
 Status: Full Time
@@ -2414,19 +2634,23 @@ Wedstrijd-id: 760430
 Status: Full Time
 Bronlocatie: Gillette Stadium
 DTEND;TZID=Europe/Amsterdam:20260617T020000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260617T000000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Foxborough\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Gillette Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇮🇶 Irak - 🇳🇴 Noorwegen (1–4)
 TRANSP:OPAQUE
 UID:cb442c4b093850590bd88dc28a833182@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep E. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m..
+DESCRIPTION:Groep E. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am..
+Live bron: ESPN
+Wedstrijd-id: 760423
+Status: Full Time
+Bronlocatie: Lincoln Financial Field
 Live bron: ESPN
 Wedstrijd-id: 760423
 Status: Full Time
@@ -2445,19 +2669,19 @@ Status: Full Time
 Bronlocatie: Lincoln Financial Field
 Ivoorkust-Ecuador 1-0
 DTEND;TZID=Europe/Amsterdam:20260615T030000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260615T010000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Philadelphia\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Lincoln Financial Field
+SEQUENCE:6
 SUMMARY:WK: 🇨🇮 Ivoorkust - 🇪🇨 Ecuador (1–0)
 TRANSP:OPAQUE
 UID:43a5500070a9b03541cfefbf63dd1be6@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kwartfinale - wedstrijd 99. Bron: FIFA/Sky Sports-speelschema\\
- \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
- aar Europe/Amsterdam.
+ \\\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd 
+ naar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760512
 Status: Scheduled
@@ -2477,19 +2701,19 @@ Bronlocatie: Hard Rock Stadium
 Knock-outfase: wedstrijd 99. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260712T010000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260711T230000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Miami\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Achtste finale 3 Winner - Achtste finale 4 Winner
 TRANSP:OPAQUE
 UID:38b9947e07ea8cec13e439388d68da69@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 86. Bron: FIFA/Sky Sports-speelschema\\\
- \\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd na
- ar Europe/Amsterdam.
+ \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
+ aar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760500
 Status: Scheduled
@@ -2509,19 +2733,23 @@ Bronlocatie: Hard Rock Stadium
 Knock-outfase: wedstrijd 86. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260704T020000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260704T000000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Miami\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🇦🇷 Argentinië - 🇨🇻 Kaapverdië
 TRANSP:OPAQUE
 UID:22091c76e921eb8a0719fc49427329a8@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep F. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep F. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760471
+Status: Full Time
+Bronlocatie: AT&T Stadium
 Live bron: ESPN
 Wedstrijd-id: 760471
 Status: Full Time
@@ -2539,19 +2767,23 @@ Wedstrijd-id: 760471
 Status: Full Time
 Bronlocatie: AT&T Stadium
 DTEND;TZID=Europe/Amsterdam:20260626T030000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260626T010000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Arlington\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:AT&T Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇯🇵 Japan - 🇸🇪 Zweden (1–1)
 TRANSP:OPAQUE
 UID:1a0cc94496b56a18f2d673031becce5e@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep A. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.    Mexico-Zuid Afrika  2-0
+DESCRIPTION:Groep A. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.    Mexico-Zuid Afrika  2-0
+Live bron: ESPN
+Wedstrijd-id: 760415
+Status: Full Time
+Bronlocatie: Estadio Banorte
 Live bron: ESPN
 Wedstrijd-id: 760415
 Status: Full Time
@@ -2569,19 +2801,23 @@ Wedstrijd-id: 760415
 Status: Full Time
 Bronlocatie: Estadio Banorte
 DTEND;TZID=Europe/Amsterdam:20260611T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260611T210000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Mexico City\, Mexico
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Estadio Banorte
+SEQUENCE:6
 SUMMARY:WK: 🇲🇽 Mexico - 🇿🇦 Zuid-Afrika (2–0)
 TRANSP:OPAQUE
 UID:f597517775a44ad18bf427fd994e3789@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep C. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep C. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760464
+Status: Full Time
+Bronlocatie: Mercedes-Benz Stadium
 Live bron: ESPN
 Wedstrijd-id: 760464
 Status: Full Time
@@ -2599,19 +2835,23 @@ Wedstrijd-id: 760464
 Status: Full Time
 Bronlocatie: Mercedes-Benz Stadium
 DTEND;TZID=Europe/Amsterdam:20260625T020000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260625T000000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Atlanta\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Mercedes-Benz Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇲🇦 Marokko - 🇭🇹 Haïti (4–2)
 TRANSP:OPAQUE
 UID:d46cfaf8c2f12783d806dc30bb836772@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep D. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep D. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760443
+Status: Full Time
+Bronlocatie: Levi's Stadium
 Live bron: ESPN
 Wedstrijd-id: 760443
 Status: Full Time
@@ -2629,19 +2869,23 @@ Wedstrijd-id: 760443
 Status: Full Time
 Bronlocatie: Levi's Stadium
 DTEND;TZID=Europe/Amsterdam:20260620T070000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260620T050000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Santa Clara\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Levi's Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇹🇷 Turkije - 🇵🇾 Paraguay (0–1)
 TRANSP:OPAQUE
 UID:1c06f1d757c40efa6184a9d6af5832c7@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 75. Bron: FIFA/Sky Sports-speelschema\\\
- \\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd na
- ar Europe/Amsterdam.
+ \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
+ aar Europe/Amsterdam.
+Live bron: ESPN
+Wedstrijd-id: 760488
+Status: Scheduled
+Bronlocatie: Estadio BBVA
 Live bron: ESPN
 Wedstrijd-id: 760488
 Status: Scheduled
@@ -2661,19 +2905,19 @@ Bronlocatie: Estadio BBVA
 Knock-outfase: wedstrijd 75. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260630T050000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260630T030000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Guadalupe\, Mexico
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Estadio BBVA
+SEQUENCE:6
 SUMMARY:WK: 🇳🇱 Nederland - 🇲🇦 Marokko
 TRANSP:OPAQUE
 UID:daf5c64d0f7bb588c533a924f705496e@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep F. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep F. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
 Live bron: ESPN
 Wedstrijd-id: 760471
 Status: Full Time
@@ -2691,19 +2935,23 @@ Wedstrijd-id: 760472
 Status: Full Time
 Bronlocatie: GEHA Field at Arrowhead Stadium
 DTEND;TZID=Europe/Amsterdam:20260626T030000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260626T010000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Kansas City\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🇯🇵 Japan - 🇸🇪 Zweden (1–1)
 TRANSP:OPAQUE
 UID:78455e6f4eba16d3c1bc9cff1a9ad786@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep C. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep C. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760445
+Status: Full Time
+Bronlocatie: Gillette Stadium
 Live bron: ESPN
 Wedstrijd-id: 760445
 Status: Full Time
@@ -2721,11 +2969,11 @@ Wedstrijd-id: 760445
 Status: Full Time
 Bronlocatie: Gillette Stadium
 DTEND;TZID=Europe/Amsterdam:20260620T020000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260620T000000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Foxborough\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Gillette Stadium
+SEQUENCE:6
 SUMMARY:WK: 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schotland - 🇲🇦 Marokko (0–
  1)
 TRANSP:OPAQUE
@@ -2733,8 +2981,12 @@ UID:e6699f6565e428163d82bf282e2161f4@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 79. Bron: FIFA/Sky Sports-speelschema\\\
- \\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd na
- ar Europe/Amsterdam.
+ \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
+ aar Europe/Amsterdam.
+Live bron: ESPN
+Wedstrijd-id: 760491
+Status: Scheduled
+Bronlocatie: Estadio Banorte
 Live bron: ESPN
 Wedstrijd-id: 760491
 Status: Scheduled
@@ -2754,19 +3006,23 @@ Bronlocatie: Estadio Banorte
 Knock-outfase: wedstrijd 79. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260701T050000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260701T030000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Mexico City\, Mexico
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Estadio Banorte
+SEQUENCE:6
 SUMMARY:WK: 🇲🇽 Mexico - 🇪🇨 Ecuador
 TRANSP:OPAQUE
 UID:5ba80ce249964bc0faafafc1741f6871@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep K. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep K. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760436
+Status: Full Time
+Bronlocatie: Estadio Banorte
 Live bron: ESPN
 Wedstrijd-id: 760436
 Status: Full Time
@@ -2784,19 +3040,19 @@ Wedstrijd-id: 760436
 Status: Full Time
 Bronlocatie: Estadio Banorte
 DTEND;TZID=Europe/Amsterdam:20260618T060000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260618T040000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Mexico City\, Mexico
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Estadio Banorte
+SEQUENCE:6
 SUMMARY:WK: 🇺🇿 Oezbekistan - 🇨🇴 Colombia (1–3)
 TRANSP:OPAQUE
 UID:5bb8c9a9e0a15bf2c188ddc36a2c036d@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep I. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep I. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
 Live bron: ESPN
 Wedstrijd-id: 760475
 Status: Full Time
@@ -2814,19 +3070,19 @@ Wedstrijd-id: 760475
 Status: Full Time
 Bronlocatie: Gillette Stadium
 DTEND;TZID=Europe/Amsterdam:20260626T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260626T210000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Foxborough\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🇳🇴 Noorwegen - 🇫🇷 Frankrijk (1–4)
 TRANSP:OPAQUE
 UID:024ec13102e27ffb72538d9bf980dec3@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep H. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep H. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
 Live bron: ESPN
 Wedstrijd-id: 760478
 Status: Full Time
@@ -2844,19 +3100,23 @@ Wedstrijd-id: 760479
 Status: Full Time
 Bronlocatie: Estadio Akron
 DTEND;TZID=Europe/Amsterdam:20260627T040000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260627T020000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Zapopan\, Mexico
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🇨🇻 Kaapverdië - 🇸🇦 Saoedi-Arabië (0–0)
 TRANSP:OPAQUE
 UID:be0aad02dab3036eb954ffb503a4d3ba@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep G. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep G. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760452
+Status: Full Time
+Bronlocatie: BC Place
 Live bron: ESPN
 Wedstrijd-id: 760452
 Status: Full Time
@@ -2874,19 +3134,19 @@ Wedstrijd-id: 760452
 Status: Full Time
 Bronlocatie: BC Place
 DTEND;TZID=Europe/Amsterdam:20260622T050000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260622T030000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Vancouver\, Canada
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:BC Place
+SEQUENCE:6
 SUMMARY:WK: 🇳🇿 Nieuw-Zeeland - 🇪🇬 Egypte (1–3)
 TRANSP:OPAQUE
 UID:5898dab688d07b34cdc0b33310a9fe82@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 78. Bron: FIFA/Sky Sports-speelschema\\\
- \\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd na
- ar Europe/Amsterdam.
+ \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
+ aar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760490
 Status: Scheduled
@@ -2906,19 +3166,23 @@ Bronlocatie: AT&T Stadium
 Knock-outfase: wedstrijd 78. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260630T210000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260630T190000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Arlington\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🇨🇮 Ivoorkust - 🇳🇴 Noorwegen
 TRANSP:OPAQUE
 UID:b782788518fa53ef218c44dc67e52806@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep K. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep K. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760461
+Status: Full Time
+Bronlocatie: NRG Stadium
 Live bron: ESPN
 Wedstrijd-id: 760461
 Status: Full Time
@@ -2936,19 +3200,23 @@ Wedstrijd-id: 760461
 Status: Full Time
 Bronlocatie: NRG Stadium
 DTEND;TZID=Europe/Amsterdam:20260623T210000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260623T190000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Houston\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:NRG Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇵🇹 Portugal - 🇺🇿 Oezbekistan (5–0)
 TRANSP:OPAQUE
 UID:56e5df5e5567728c2041c421374de6d4@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep E. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep E. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760448
+Status: Full Time
+Bronlocatie: BMO Field
 Live bron: ESPN
 Wedstrijd-id: 760448
 Status: Full Time
@@ -2966,19 +3234,23 @@ Wedstrijd-id: 760448
 Status: Full Time
 Bronlocatie: BMO Field
 DTEND;TZID=Europe/Amsterdam:20260621T000000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260620T220000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Toronto\, Canada
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:BMO Field
+SEQUENCE:6
 SUMMARY:WK: 🇩🇪 Duitsland - 🇨🇮 Ivoorkust (2–1)
 TRANSP:OPAQUE
 UID:24b370117bdc5ea0431368fe41bd0e4a@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep B. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep B. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760440
+Status: Full Time
+Bronlocatie: BC Place
 Live bron: ESPN
 Wedstrijd-id: 760440
 Status: Full Time
@@ -2996,19 +3268,23 @@ Wedstrijd-id: 760440
 Status: Full Time
 Bronlocatie: BC Place
 DTEND;TZID=Europe/Amsterdam:20260619T020000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260619T000000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Vancouver\, Canada
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:BC Place
+SEQUENCE:6
 SUMMARY:WK: 🇨🇦 Canada - 🇶🇦 Qatar (6–0)
 TRANSP:OPAQUE
 UID:52b858fd5837fa100ec542c350a0775c@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 85. Bron: FIFA/Sky Sports-speelschema\\\
- \\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd na
- ar Europe/Amsterdam.
+ \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
+ aar Europe/Amsterdam.
+Live bron: ESPN
+Wedstrijd-id: 760498
+Status: Scheduled
+Bronlocatie: BC Place
 Live bron: ESPN
 Wedstrijd-id: 760498
 Status: Scheduled
@@ -3028,19 +3304,19 @@ Bronlocatie: BC Place
 Knock-outfase: wedstrijd 85. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260703T070000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260703T050000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Vancouver\, Canada
-SEQUENCE:5
-SUMMARY:WK: 🇨🇭 Zwitserland - Third Place Groep E/F/G/I/J
+LAST-MODIFIED:20260628T002841Z
+LOCATION:BC Place
+SEQUENCE:6
+SUMMARY:WK: 🇨🇭 Zwitserland - Third Place Group E/F/G/I/J
 TRANSP:OPAQUE
 UID:3bb360e52adc2e6de4c1d4ebcac28730@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 87. Bron: FIFA/Sky Sports-speelschema\\\
- \\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd na
- ar Europe/Amsterdam.
+ \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
+ aar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760501
 Status: Scheduled
@@ -3060,35 +3336,35 @@ Bronlocatie: GEHA Field at Arrowhead Stadium
 Knock-outfase: wedstrijd 87. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260704T053000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260704T033000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Kansas City\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: Groep K Winner - 🇬🇭 Ghana
 TRANSP:OPAQUE
 UID:26a3995ac78f376f9777996bee0cca70@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 73. Bron: FIFA/Sky Sports-speelschema\\\
- \\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd naar E
- urope/Amsterdam.
+ \\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd naar 
+ Europe/Amsterdam.
 Knock-outfase: wedstrijd 73. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260628T184500
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260628T164500
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Los Angeles\, Verenigde Staten
-SEQUENCE:6
+SEQUENCE:7
 SUMMARY:WK 2026: Zuid-Afrika vs Canada
 TRANSP:OPAQUE
 UID:b135f1323e9896933dc0bf188a2c454e@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep C. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep C. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
 Live bron: ESPN
 Wedstrijd-id: 760464
 Status: Full Time
@@ -3106,19 +3382,23 @@ Wedstrijd-id: 760465
 Status: Full Time
 Bronlocatie: Hard Rock Stadium
 DTEND;TZID=Europe/Amsterdam:20260625T020000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260625T000000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Miami\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🇲🇦 Marokko - 🇭🇹 Haïti (4–2)
 TRANSP:OPAQUE
 UID:e146c73ff338fc915447bf1f1a8c599d@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep J. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep J. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760483
+Status: Scheduled
+Bronlocatie: AT&T Stadium
 Live bron: ESPN
 Wedstrijd-id: 760483
 Status: Scheduled
@@ -3136,19 +3416,23 @@ Wedstrijd-id: 760483
 Status: Scheduled
 Bronlocatie: AT&T Stadium
 DTEND;TZID=Europe/Amsterdam:20260628T060000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260628T040000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Arlington\, Verenigde Staten
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:AT&T Stadium
+SEQUENCE:6
 SUMMARY:WK: 🇯🇴 Jordanië - 🇦🇷 Argentinië
 TRANSP:OPAQUE
 UID:299a064c42d3d008ad901d1412279eab@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Groep A. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\; oorspronk
- elijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterda
- m.
+DESCRIPTION:Groep A. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\; oorspron
+ kelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amsterd
+ am.
+Live bron: ESPN
+Wedstrijd-id: 760414
+Status: Full Time
+Bronlocatie: Estadio Akron
 Live bron: ESPN
 Wedstrijd-id: 760414
 Status: Full Time
@@ -3167,19 +3451,19 @@ Status: Full Time
 Bronlocatie: Estadio Akron
 Zuid Korea- Tsjechië  2-1
 DTEND;TZID=Europe/Amsterdam:20260612T060000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260612T040000
-LAST-MODIFIED:20260627T231803Z
-LOCATION:Zapopan\, Mexico
-SEQUENCE:5
+LAST-MODIFIED:20260628T002841Z
+LOCATION:Estadio Akron
+SEQUENCE:6
 SUMMARY:WK: 🇰🇷 Zuid-Korea - 🇨🇿 Tsjechië (2–1)
 TRANSP:OPAQUE
 UID:06a8103025b539c94e8c1c0a2ce74ec6@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laatste 32 - wedstrijd 84. Bron: FIFA/Sky Sports-speelschema\\\
- \\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd na
- ar Europe/Amsterdam.
+ \\\\\\\\; oorspronkelijke aftraptijd vermeld in UK-tijd en geconverteerd n
+ aar Europe/Amsterdam.
 Live bron: ESPN
 Wedstrijd-id: 760497
 Status: Scheduled
@@ -3199,313 +3483,460 @@ Bronlocatie: SoFi Stadium
 Knock-outfase: wedstrijd 84. Deelnemers bijgewerkt in Nederlandse aanduidin
  g.
 DTEND;TZID=Europe/Amsterdam:20260702T230000
-DTSTAMP:20260627T231803Z
+DTSTAMP:20260628T002841Z
 DTSTART;TZID=Europe/Amsterdam:20260702T210000
-LAST-MODIFIED:20260627T231803Z
+LAST-MODIFIED:20260628T002841Z
 LOCATION:Los Angeles\, Verenigde Staten
-SEQUENCE:5
+SEQUENCE:6
 SUMMARY:WK: 🇪🇸 Spanje - Groep J 2nd Place
 TRANSP:OPAQUE
 UID:880173def83ee3326c377ad2320e3c95@chatgpt-wk2026
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:SoFi Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760486\nStatus: Scheduled\nBronl
- ocatie: SoFi Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760486
+Status: Scheduled
+Bronlocatie: SoFi Stadium
 SUMMARY:WK: 🇿🇦 Zuid-Afrika - 🇨🇦 Canada
 DTEND;TZID=Europe/Amsterdam:20260628T230000
 DTSTART;TZID=Europe/Amsterdam:20260628T210000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760486@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:NRG Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760487\nStatus: Scheduled\nBronl
- ocatie: NRG Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760487
+Status: Scheduled
+Bronlocatie: NRG Stadium
 SUMMARY:WK: 🇧🇷 Brazilië - 🇯🇵 Japan
 DTEND;TZID=Europe/Amsterdam:20260629T210000
 DTSTART;TZID=Europe/Amsterdam:20260629T190000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760487@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:Gillette Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760489\nStatus: Scheduled\nBronl
- ocatie: Gillette Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760489
+Status: Scheduled
+Bronlocatie: Gillette Stadium
 SUMMARY:WK: 🇩🇪 Duitsland - 🇵🇾 Paraguay
 DTEND;TZID=Europe/Amsterdam:20260630T003000
 DTSTART;TZID=Europe/Amsterdam:20260629T223000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760489@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:AT&T Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760490\nStatus: Scheduled\nBronl
- ocatie: AT&T Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760490
+Status: Scheduled
+Bronlocatie: AT&T Stadium
 SUMMARY:WK: 🇨🇮 Ivoorkust - 🇳🇴 Noorwegen
 DTEND;TZID=Europe/Amsterdam:20260630T210000
 DTSTART;TZID=Europe/Amsterdam:20260630T190000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760490@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:MetLife Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760492\nStatus: Scheduled\nBronl
- ocatie: MetLife Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760492
+Status: Scheduled
+Bronlocatie: MetLife Stadium
 SUMMARY:WK: 🇫🇷 Frankrijk - 🇸🇪 Zweden
 DTEND;TZID=Europe/Amsterdam:20260701T010000
 DTSTART;TZID=Europe/Amsterdam:20260630T230000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760492@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:Mercedes-Benz Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760495\nStatus: Scheduled\nBronl
- ocatie: Mercedes-Benz Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760495
+Status: Scheduled
+Bronlocatie: Mercedes-Benz Stadium
 SUMMARY:WK: 🏴 Engeland - Third Place Group E/H/I/J/K
 DTEND;TZID=Europe/Amsterdam:20260701T200000
 DTSTART;TZID=Europe/Amsterdam:20260701T180000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760495@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:Lumen Field
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760493\nStatus: Scheduled\nBronl
- ocatie: Lumen Field
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760493
+Status: Scheduled
+Bronlocatie: Lumen Field
 SUMMARY:WK: 🇧🇪 België - Third Place Group A/E/H/I/J
 DTEND;TZID=Europe/Amsterdam:20260702T000000
 DTSTART;TZID=Europe/Amsterdam:20260701T220000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760493@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:SoFi Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760497\nStatus: Scheduled\nBronl
- ocatie: SoFi Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760497
+Status: Scheduled
+Bronlocatie: SoFi Stadium
 SUMMARY:WK: 🇪🇸 Spanje - Group J 2nd Place
 DTEND;TZID=Europe/Amsterdam:20260702T230000
 DTSTART;TZID=Europe/Amsterdam:20260702T210000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760497@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:AT&T Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760499\nStatus: Scheduled\nBronl
- ocatie: AT&T Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760499
+Status: Scheduled
+Bronlocatie: AT&T Stadium
 SUMMARY:WK: 🇦🇺 Australië - 🇪🇬 Egypte
 DTEND;TZID=Europe/Amsterdam:20260703T220000
 DTSTART;TZID=Europe/Amsterdam:20260703T200000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760499@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:Hard Rock Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760500\nStatus: Scheduled\nBronl
- ocatie: Hard Rock Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760500
+Status: Scheduled
+Bronlocatie: Hard Rock Stadium
 SUMMARY:WK: 🇦🇷 Argentinië - 🇨🇻 Kaapverdië
 DTEND;TZID=Europe/Amsterdam:20260704T020000
 DTSTART;TZID=Europe/Amsterdam:20260704T000000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760500@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:GEHA Field at Arrowhead Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760501\nStatus: Scheduled\nBronl
- ocatie: GEHA Field at Arrowhead Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760501
+Status: Scheduled
+Bronlocatie: GEHA Field at Arrowhead Stadium
 SUMMARY:WK: Group K Winner - 🇬🇭 Ghana
 DTEND;TZID=Europe/Amsterdam:20260704T053000
 DTSTART;TZID=Europe/Amsterdam:20260704T033000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760501@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:NRG Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760502\nStatus: Scheduled\nBronl
- ocatie: NRG Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760502
+Status: Scheduled
+Bronlocatie: NRG Stadium
 SUMMARY:WK: Round of 32 1 Winner - Round of 32 3 Winner
 DTEND;TZID=Europe/Amsterdam:20260704T210000
 DTSTART;TZID=Europe/Amsterdam:20260704T190000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760502@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:Lincoln Financial Field
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760503\nStatus: Scheduled\nBronl
- ocatie: Lincoln Financial Field
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760503
+Status: Scheduled
+Bronlocatie: Lincoln Financial Field
 SUMMARY:WK: Round of 32 2 Winner - Round of 32 5 Winner
 DTEND;TZID=Europe/Amsterdam:20260705T010000
 DTSTART;TZID=Europe/Amsterdam:20260704T230000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760503@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:MetLife Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760504\nStatus: Scheduled\nBronl
- ocatie: MetLife Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760504
+Status: Scheduled
+Bronlocatie: MetLife Stadium
 SUMMARY:WK: Round of 32 4 Winner - Round of 32 6 Winner
 DTEND;TZID=Europe/Amsterdam:20260706T000000
 DTSTART;TZID=Europe/Amsterdam:20260705T220000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760504@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:AT&T Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760506\nStatus: Scheduled\nBronl
- ocatie: AT&T Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760506
+Status: Scheduled
+Bronlocatie: AT&T Stadium
 SUMMARY:WK: Round of 32 11 Winner - Round of 32 12 Winner
 DTEND;TZID=Europe/Amsterdam:20260706T230000
 DTSTART;TZID=Europe/Amsterdam:20260706T210000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760506@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:Lumen Field
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760507\nStatus: Scheduled\nBronl
- ocatie: Lumen Field
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760507
+Status: Scheduled
+Bronlocatie: Lumen Field
 SUMMARY:WK: Round of 32 9 Winner - Round of 32 10 Winner
 DTEND;TZID=Europe/Amsterdam:20260707T040000
 DTSTART;TZID=Europe/Amsterdam:20260707T020000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760507@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:Mercedes-Benz Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760509\nStatus: Scheduled\nBronl
- ocatie: Mercedes-Benz Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760509
+Status: Scheduled
+Bronlocatie: Mercedes-Benz Stadium
 SUMMARY:WK: Round of 32 14 Winner - Round of 32 16 Winner
 DTEND;TZID=Europe/Amsterdam:20260707T200000
 DTSTART;TZID=Europe/Amsterdam:20260707T180000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760509@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:Gillette Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760510\nStatus: Scheduled\nBronl
- ocatie: Gillette Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760510
+Status: Scheduled
+Bronlocatie: Gillette Stadium
 SUMMARY:WK: Round of 16 1 Winner - Round of 16 2 Winner
 DTEND;TZID=Europe/Amsterdam:20260710T000000
 DTSTART;TZID=Europe/Amsterdam:20260709T220000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760510@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
-SEQUENCE:1
+SEQUENCE:2
 LOCATION:SoFi Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760511\nStatus: Scheduled\nBronl
- ocatie: SoFi Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760511
+Status: Scheduled
+Bronlocatie: SoFi Stadium
 SUMMARY:WK: Round of 16 5 Winner - Round of 16 6 Winner
 DTEND;TZID=Europe/Amsterdam:20260710T230000
 DTSTART;TZID=Europe/Amsterdam:20260710T210000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
 UID:wk2026-espn-760511@rdolman.github.io
+END:VEVENT
+BEGIN:VEVENT
+SEQUENCE:2
+LOCATION:Hard Rock Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760512
+Status: Scheduled
+Bronlocatie: Hard Rock Stadium
+SUMMARY:WK: Round of 16 3 Winner - Round of 16 4 Winner
+DTEND;TZID=Europe/Amsterdam:20260712T010000
+DTSTART;TZID=Europe/Amsterdam:20260711T230000
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
+UID:wk2026-espn-760512@rdolman.github.io
+END:VEVENT
+BEGIN:VEVENT
+SEQUENCE:2
+LOCATION:GEHA Field at Arrowhead Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760513
+Status: Scheduled
+Bronlocatie: GEHA Field at Arrowhead Stadium
+SUMMARY:WK: Round of 16 7 Winner - Round of 16 8 Winner
+DTEND;TZID=Europe/Amsterdam:20260712T050000
+DTSTART;TZID=Europe/Amsterdam:20260712T030000
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
+UID:wk2026-espn-760513@rdolman.github.io
+END:VEVENT
+BEGIN:VEVENT
+SEQUENCE:2
+LOCATION:AT&T Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760514
+Status: Scheduled
+Bronlocatie: AT&T Stadium
+SUMMARY:WK: Quarterfinal 1 Winner - Quarterfinal 2 Winner
+DTEND;TZID=Europe/Amsterdam:20260714T230000
+DTSTART;TZID=Europe/Amsterdam:20260714T210000
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
+UID:wk2026-espn-760514@rdolman.github.io
+END:VEVENT
+BEGIN:VEVENT
+SEQUENCE:2
+LOCATION:Mercedes-Benz Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760515
+Status: Scheduled
+Bronlocatie: Mercedes-Benz Stadium
+SUMMARY:WK: Quarterfinal 3 Winner - Quarterfinal 4 Winner
+DTEND;TZID=Europe/Amsterdam:20260715T230000
+DTSTART;TZID=Europe/Amsterdam:20260715T210000
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
+UID:wk2026-espn-760515@rdolman.github.io
+END:VEVENT
+BEGIN:VEVENT
+SEQUENCE:2
+LOCATION:Hard Rock Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760516
+Status: Scheduled
+Bronlocatie: Hard Rock Stadium
+SUMMARY:WK: Semifinal 1 Loser - Semifinal 2 Loser
+DTEND;TZID=Europe/Amsterdam:20260719T010000
+DTSTART;TZID=Europe/Amsterdam:20260718T230000
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
+UID:wk2026-espn-760516@rdolman.github.io
+END:VEVENT
+BEGIN:VEVENT
+SEQUENCE:2
+LOCATION:MetLife Stadium
+DESCRIPTION:Live bron: ESPN
+Wedstrijd-id: 760517
+Status: Scheduled
+Bronlocatie: MetLife Stadium
+SUMMARY:WK: Semifinal 1 Winner - Semifinal 2 Winner
+DTEND;TZID=Europe/Amsterdam:20260719T230000
+DTSTART;TZID=Europe/Amsterdam:20260719T210000
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
+UID:wk2026-espn-760517@rdolman.github.io
+END:VEVENT
+BEGIN:VEVENT
+SEQUENCE:1
+LOCATION:BC Place
+DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760463\nStatus: Full Time\nBronl
+ ocatie: BC Place
+SUMMARY:WK: 🇨🇭 Zwitserland - 🇨🇦 Canada (2–1)
+DTEND;TZID=Europe/Amsterdam:20260624T230000
+DTSTART;TZID=Europe/Amsterdam:20260624T210000
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
+UID:wk2026-espn-760463@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
 SEQUENCE:1
 LOCATION:Hard Rock Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760512\nStatus: Scheduled\nBronl
+DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760465\nStatus: Full Time\nBronl
  ocatie: Hard Rock Stadium
-SUMMARY:WK: Round of 16 3 Winner - Round of 16 4 Winner
-DTEND;TZID=Europe/Amsterdam:20260712T010000
-DTSTART;TZID=Europe/Amsterdam:20260711T230000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
-UID:wk2026-espn-760512@rdolman.github.io
+SUMMARY:WK: 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schotland - 🇧🇷 Brazilië (0
+ –3)
+DTEND;TZID=Europe/Amsterdam:20260625T020000
+DTSTART;TZID=Europe/Amsterdam:20260625T000000
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
+UID:wk2026-espn-760465@rdolman.github.io
+END:VEVENT
+BEGIN:VEVENT
+SEQUENCE:1
+LOCATION:Estadio BBVA
+DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760466\nStatus: Full Time\nBronl
+ ocatie: Estadio BBVA
+SUMMARY:WK: 🇿🇦 Zuid-Afrika - 🇰🇷 Zuid-Korea (1–0)
+DTEND;TZID=Europe/Amsterdam:20260625T050000
+DTSTART;TZID=Europe/Amsterdam:20260625T030000
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
+UID:wk2026-espn-760466@rdolman.github.io
+END:VEVENT
+BEGIN:VEVENT
+SEQUENCE:1
+LOCATION:MetLife Stadium
+DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760468\nStatus: Full Time\nBronl
+ ocatie: MetLife Stadium
+SUMMARY:WK: 🇪🇨 Ecuador - 🇩🇪 Duitsland (2–1)
+DTEND;TZID=Europe/Amsterdam:20260626T000000
+DTSTART;TZID=Europe/Amsterdam:20260625T220000
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
+UID:wk2026-espn-760468@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
 SEQUENCE:1
 LOCATION:GEHA Field at Arrowhead Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760513\nStatus: Scheduled\nBronl
+DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760472\nStatus: Full Time\nBronl
  ocatie: GEHA Field at Arrowhead Stadium
-SUMMARY:WK: Round of 16 7 Winner - Round of 16 8 Winner
-DTEND;TZID=Europe/Amsterdam:20260712T050000
-DTSTART;TZID=Europe/Amsterdam:20260712T030000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
-UID:wk2026-espn-760513@rdolman.github.io
+SUMMARY:WK: 🇹🇳 Tunesië - 🇳🇱 Nederland (1–3)
+DTEND;TZID=Europe/Amsterdam:20260626T030000
+DTSTART;TZID=Europe/Amsterdam:20260626T010000
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
+UID:wk2026-espn-760472@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
 SEQUENCE:1
-LOCATION:AT&T Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760514\nStatus: Scheduled\nBronl
- ocatie: AT&T Stadium
-SUMMARY:WK: Quarterfinal 1 Winner - Quarterfinal 2 Winner
-DTEND;TZID=Europe/Amsterdam:20260714T230000
-DTSTART;TZID=Europe/Amsterdam:20260714T210000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
-UID:wk2026-espn-760514@rdolman.github.io
+LOCATION:BMO Field
+DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760474\nStatus: Full Time\nBronl
+ ocatie: BMO Field
+SUMMARY:WK: 🇸🇳 Senegal - 🇮🇶 Irak (5–0)
+DTEND;TZID=Europe/Amsterdam:20260626T230000
+DTSTART;TZID=Europe/Amsterdam:20260626T210000
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
+UID:wk2026-espn-760474@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
 SEQUENCE:1
-LOCATION:Mercedes-Benz Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760515\nStatus: Scheduled\nBronl
- ocatie: Mercedes-Benz Stadium
-SUMMARY:WK: Quarterfinal 3 Winner - Quarterfinal 4 Winner
-DTEND;TZID=Europe/Amsterdam:20260715T230000
-DTSTART;TZID=Europe/Amsterdam:20260715T210000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
-UID:wk2026-espn-760515@rdolman.github.io
+LOCATION:Estadio Akron
+DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760479\nStatus: Full Time\nBronl
+ ocatie: Estadio Akron
+SUMMARY:WK: 🇺🇾 Uruguay - 🇪🇸 Spanje (0–1)
+DTEND;TZID=Europe/Amsterdam:20260627T040000
+DTSTART;TZID=Europe/Amsterdam:20260627T020000
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
+UID:wk2026-espn-760479@rdolman.github.io
 END:VEVENT
 BEGIN:VEVENT
 SEQUENCE:1
-LOCATION:Hard Rock Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760516\nStatus: Scheduled\nBronl
- ocatie: Hard Rock Stadium
-SUMMARY:WK: Semifinal 1 Loser - Semifinal 2 Loser
-DTEND;TZID=Europe/Amsterdam:20260719T010000
-DTSTART;TZID=Europe/Amsterdam:20260718T230000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
-UID:wk2026-espn-760516@rdolman.github.io
-END:VEVENT
-BEGIN:VEVENT
-SEQUENCE:1
-LOCATION:MetLife Stadium
-DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760517\nStatus: Scheduled\nBronl
- ocatie: MetLife Stadium
-SUMMARY:WK: Semifinal 1 Winner - Semifinal 2 Winner
-DTEND;TZID=Europe/Amsterdam:20260719T230000
-DTSTART;TZID=Europe/Amsterdam:20260719T210000
-LAST-MODIFIED:20260627T232905Z
-DTSTAMP:20260627T232905Z
-UID:wk2026-espn-760517@rdolman.github.io
+LOCATION:BC Place
+DESCRIPTION:Live bron: ESPN\nWedstrijd-id: 760477\nStatus: Full Time\nBronl
+ ocatie: BC Place
+SUMMARY:WK: 🇳🇿 Nieuw-Zeeland - 🇧🇪 België (1–5)
+DTEND;TZID=Europe/Amsterdam:20260627T070000
+DTSTART;TZID=Europe/Amsterdam:20260627T050000
+LAST-MODIFIED:20260628T002841Z
+DTSTAMP:20260628T002841Z
+UID:wk2026-espn-760477@rdolman.github.io
 END:VEVENT
 END:VCALENDAR
