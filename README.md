@@ -8,9 +8,9 @@ Live iCal-kalender voor het WK 2026-speelschema in Nederlandse aanduiding.
 https://rdolman.github.io/wk-2026-ical-nl/wk2026.ics
 ```
 
-## v4
+## v5
 
-v4 koppelt wedstrijden aan bronwedstrijd-ID's zodra die beschikbaar zijn. Daardoor kan één bronwedstrijd niet meer per ongeluk twee verschillende kalenderitems overschrijven bij gelijktijdige wedstrijden.
+Vereenvoudigde matching: gebeurt uitsluitend op ESPN-ID. Niet meer op tijdstip, teamnaam of stad. Geen bestaand .ics als template nodig, de engine bouwt alles opnieuw op vanuit de ESPN-data, en hergebruikt alleen de UIDs van vorige runs zodat agenda-abonnees geen dubbele events krijgen.
 
 Titelvorm:
 
@@ -23,7 +23,11 @@ Voor nog niet gespeelde wedstrijden:
 ```text
 WK: 🇳🇱 Nederland - 🇲🇦 Marokko
 ```
+## Updates
+
+Matching-script draait elk uur en update de agenda met uitslagen en nieuwe wedstrijden in de knock-out fase.
 
 ## Handmatig draaien
 
-Ga naar **Actions → Update WK 2026 kalender → Run workflow**.
+Kun je niet wachten en wil je gelijk de uitslagen in je agenda, 
+ga dan naar **Actions → Update WK 2026 kalender → Run workflow**.
