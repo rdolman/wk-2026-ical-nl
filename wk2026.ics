@@ -3042,6 +3042,7 @@ SUMMARY:WK: 🇲🇽 Mexico - 🇿🇦 Zuid-Afrika (2–0)
 TRANSP:OPAQUE
 UID:f597517775a44ad18bf427fd994e3789@chatgpt-wk2026
 END:VEVENT
+
 BEGIN:VEVENT
 DESCRIPTION:Groep C. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\\; oorspro
  nkelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amster
@@ -3080,6 +3081,7 @@ SUMMARY:WK: 🇲🇦 Marokko - 🇭🇹 Haïti (4–2)
 TRANSP:OPAQUE
 UID:d46cfaf8c2f12783d806dc30bb836772@chatgpt-wk2026
 END:VEVENT
+
 BEGIN:VEVENT
 DESCRIPTION:Groep D. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\\; oorspro
  nkelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amster
@@ -3637,36 +3639,7 @@ SUMMARY:WK 2026: Zuid-Afrika vs Canada
 TRANSP:OPAQUE
 UID:b135f1323e9896933dc0bf188a2c454e@chatgpt-wk2026
 END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Groep C. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\\; oorspro
- nkelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amster
- dam.
-Live bron: ESPN
-Wedstrijd-id: 760464
-Status: Full Time
-Bronlocatie: Mercedes-Benz Stadium
-Live bron: ESPN
-Wedstrijd-id: 760464
-Status: Full Time
-Bronlocatie: Mercedes-Benz Stadium
-Live bron: ESPN
-Wedstrijd-id: 760464
-Status: Full Time
-Bronlocatie: Mercedes-Benz Stadium
-Live bron: ESPN
-Wedstrijd-id: 760465
-Status: Full Time
-Bronlocatie: Hard Rock Stadium
-DTEND;TZID=Europe/Amsterdam:20260625T020000
-DTSTAMP:20260628T003511Z
-DTSTART;TZID=Europe/Amsterdam:20260625T000000
-LAST-MODIFIED:20260628T003511Z
-LOCATION:Miami\, Verenigde Staten
-SEQUENCE:7
-SUMMARY:WK: 🇲🇦 Marokko - 🇭🇹 Haïti (4–2)
-TRANSP:OPAQUE
-UID:e146c73ff338fc915447bf1f1a8c599d@chatgpt-wk2026
-END:VEVENT
+
 BEGIN:VEVENT
 DESCRIPTION:Groep J. Bron: FIFA/Sky Sports-speelschema\\\\\\\\\\\\; oorspro
  nkelijke aftraptijd vermeld in UK-tijd en geconverteerd naar Europe/Amster
