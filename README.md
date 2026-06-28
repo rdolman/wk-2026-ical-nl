@@ -1,34 +1,51 @@
-# WK 2026 iCal NL
+# WK 2026 Speelschema NL 🇳🇱⚽
 
-Live iCal-kalender voor het WK 2026-speelschema in Nederlandse aanduiding.
+Een abonneerbare agenda met alle 104 wedstrijden van het FIFA Wereldkampioenschap voetbal 2026, automatisch bijgewerkt met live uitslagen en links naar NOS Sport samenvattingen.
 
-## Agenda-URL
+## Wat doet het?
 
-```text
+- 📅 **Alle wedstrijden** — van de poulefase tot en met de finale, inclusief locatie en speeltijd in Nederlandse tijd
+- 🔄 **Live uitslagen** — elk uur automatisch bijgewerkt via de ESPN API
+- 🎬 **NOS samenvattingen** — na afloop van elke wedstrijd verschijnt automatisch een link naar de samenvatting op YouTube
+- 🏆 **Knock-outfase** — tegenstanders worden automatisch bijgewerkt zodra de poulestand bekend is
+
+## Abonneren
+
+Voeg de volgende URL toe als agenda-abonnement in Apple Calendar, Google Calendar of Outlook:
+
+```
 https://rdolman.github.io/wk-2026-ical-nl/wk2026.ics
 ```
 
-## v5
+**Apple Calendar:** Archief → Abonnement op kalender → URL plakken  
+**Google Calendar:** Andere agenda's → Via URL → URL plakken  
+**Outlook:** Agenda toevoegen → Via internet → URL plakken
 
-Vereenvoudigde matching: gebeurt uitsluitend op ESPN-ID. Niet meer op tijdstip, teamnaam of stad. Geen bestaand .ics als template nodig, de engine bouwt alles opnieuw op vanuit de ESPN-data, en hergebruikt alleen de UIDs van vorige runs zodat agenda-abonnees geen dubbele events krijgen.
-Elke gespeelde wedstrijd wordt voorzien van een url naar de wedstrijdsamenvatting op NOS Sport (YouTube).
+> 💡 Stel de verversfrequentie in op "elk kwartier" of "elk uur" voor de meest actuele uitslagen.
 
-Titelvorm:
+## Hoe werkt het?
 
-```text
-WK: 🇳🇱 Nederland - 🇲🇦 Marokko (3–1)
+Een GitHub Actions workflow draait elk uur en haalt live data op via de ESPN API en de NOS Sport YouTube playlist. Het resultaat wordt als `.ics` bestand gepubliceerd via GitHub Pages.
+
+```
+ESPN API → uitslagen & wedstrijddata
+NOS Sport YouTube → links naar samenvattingen
+        ↓
+GitHub Actions (elk uur)
+        ↓
+wk2026.ics → GitHub Pages
+        ↓
+Jouw agenda-app
 ```
 
-Voor nog niet gespeelde wedstrijden:
+## Technische details
 
-```text
-WK: 🇳🇱 Nederland - 🇲🇦 Marokko
-```
-## Updates
+- **Taal:** Python 3.12
+- **Data:** [ESPN API](https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard)
+- **Samenvattingen:** [NOS Sport YouTube](https://www.youtube.com/@nossport)
+- **Schema:** Elk uur via GitHub Actions
+- **Formaat:** iCalendar (RFC 5545), tijdzone Europe/Amsterdam
 
-Matching-script draait elk uur en update de agenda met uitslagen en nieuwe wedstrijden in de knock-out fase.
+## Licentie
 
-## Handmatig draaien
-
-Kun je niet wachten en wil je gelijk de uitslagen in je agenda, 
-ga dan naar **Actions → Update WK 2026 kalender → Run workflow**.
+MIT — vrij te gebruiken en aan te passen.
