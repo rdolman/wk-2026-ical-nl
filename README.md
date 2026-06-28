@@ -8,7 +8,7 @@ Live iCal-kalender voor het WK 2026-speelschema in Nederlandse aanduiding.
 https://rdolman.github.io/wk-2026-ical-nl/wk2026.ics
 ```
 
-## v5
+## v4
 
 Vereenvoudigde matching: gebeurt uitsluitend op ESPN-ID. Niet meer op tijdstip, teamnaam of stad. Geen bestaand .ics als template nodig, de engine bouwt alles opnieuw op vanuit de ESPN-data, en hergebruikt alleen de UIDs van vorige runs zodat agenda-abonnees geen dubbele events krijgen.
 
