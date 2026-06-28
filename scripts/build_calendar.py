@@ -6,18 +6,17 @@ Bestaand bestand wordt alleen gebruikt om eerder toegewezen UIDs te hergebruiken
 (zodat agenda-abonnees geen dubbele events krijgen). De matching gebeurt
 UITSLUITEND op ESPN wedstrijd-ID – nooit op tijdstip of teamnaam.
 
-NOS Sport YouTube RSS feed wordt gebruikt om samenvattingen toe te voegen
-aan afgelopen wedstrijden.
+NOS Sport YouTube playlist wordt gebruikt om samenvattingen toe te voegen
+aan afgelopen wedstrijden (vereist YT_API_KEY omgevingsvariabele).
 """
-
 from __future__ import annotations
 
 import json
 import os
 import re
 import urllib.request
-import xml.etree.ElementTree as ET
-from dataclasses import dataclass, field
+import urllib.parse
+from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -38,7 +37,8 @@ ESPN_URL = os.environ.get(
     "?dates=20260611-20260719&limit=300",
 )
 
-NOS_RSS_URL = "https://www.youtube.com/feeds/videos.xml?channel_id=UCT4oPufBQa0f6C67Fw_HXNg"
+NOS_PLAYLIST_ID = "PLnJJ42LOJsdHCqcsxa9fl9jZgmUqcMjbu"
+YT_API_KEY = os.environ.get("YT_API_KEY", "")
 
 CALENDAR_HEADER = """\
 BEGIN:VCALENDAR
@@ -204,7 +204,7 @@ def fetch_games() -> list[Game]:
 
 
 # ---------------------------------------------------------------------------
-# NOS Sport YouTube RSS ophalen
+# NOS Sport YouTube playlist ophalen via YouTube Data API v3
 # ---------------------------------------------------------------------------
 
 @dataclass
@@ -215,55 +215,68 @@ class NosVideo:
 
 
 def fetch_nos_videos() -> list[NosVideo]:
-    """Haalt de laatste video's op van NOS Sport YouTube RSS feed."""
-    try:
-        req = urllib.request.Request(
-            NOS_RSS_URL,
-            headers={"User-Agent": "rdolman-wk2026-ical-nl/5.0"}
-        )
-        with urllib.request.urlopen(req, timeout=15) as r:
-            xml_data = r.read()
-    except Exception as e:
-        print(f"NOS RSS ophalen mislukt: {e}")
-        return []
-
-    # XML namespace
-    ns = {
-        "atom": "http://www.w3.org/2005/Atom",
-        "media": "http://search.yahoo.com/mrss/",
-    }
-
-    try:
-        root = ET.fromstring(xml_data)
-    except ET.ParseError as e:
-        print(f"NOS RSS parse fout: {e}")
+    """Haalt ALLE video's op uit de NOS Sport WK2026 playlist via YouTube Data API v3."""
+    if not YT_API_KEY:
+        print("Geen YT_API_KEY gevonden, NOS samenvattingen overgeslagen.")
         return []
 
     videos: list[NosVideo] = []
-    for entry in root.findall("atom:entry", ns):
-        title_el = entry.find("atom:title", ns)
-        link_el = entry.find("atom:link[@rel='alternate']", ns)
-        pub_el = entry.find("atom:published", ns)
+    next_page_token = None
 
-        if title_el is None or link_el is None or pub_el is None:
-            continue
+    while True:
+        params = {
+            "part": "snippet",
+            "playlistId": NOS_PLAYLIST_ID,
+            "maxResults": "50",
+            "key": YT_API_KEY,
+        }
+        if next_page_token:
+            params["pageToken"] = next_page_token
 
-        title = title_el.text or ""
-        url = link_el.get("href", "")
-        pub_str = pub_el.text or ""
-
-        # Sla shorts over (geen volledige samenvattingen)
-        if "/shorts/" in url:
-            continue
+        url = "https://www.googleapis.com/youtube/v3/playlistItems?" + urllib.parse.urlencode(params)
 
         try:
-            published = datetime.fromisoformat(pub_str).astimezone(timezone.utc)
-        except ValueError:
-            continue
+            req = urllib.request.Request(
+                url, headers={"User-Agent": "rdolman-wk2026-ical-nl/5.0"}
+            )
+            with urllib.request.urlopen(req, timeout=15) as r:
+                data = json.loads(r.read().decode())
+        except Exception as e:
+            print(f"YouTube API fout: {e}")
+            break
 
-        videos.append(NosVideo(title=title, url=url, published=published))
+        for item in data.get("items", []):
+            snippet = item.get("snippet", {})
+            title = snippet.get("title", "")
+            video_id = snippet.get("resourceId", {}).get("videoId", "")
+            published_str = snippet.get("publishedAt", "")
 
-    print(f"{len(videos)} NOS Sport video's opgehaald.")
+            if not video_id or not title:
+                continue
+
+            # Sla privé/verwijderde video's over
+            if title in ("Deleted video", "Private video"):
+                continue
+
+            try:
+                published = datetime.fromisoformat(
+                    published_str.replace("Z", "+00:00")
+                ).astimezone(timezone.utc)
+            except ValueError:
+                continue
+
+            videos.append(NosVideo(
+                title=title,
+                url=f"https://www.youtube.com/watch?v={video_id}",
+                published=published,
+            ))
+
+        # Volgende pagina ophalen indien beschikbaar
+        next_page_token = data.get("nextPageToken")
+        if not next_page_token:
+            break
+
+    print(f"{len(videos)} NOS Sport video's opgehaald uit playlist.")
     return videos
 
 
@@ -423,7 +436,6 @@ def build_event(game: Game, uid: str, now: str, sequence: int,
         "TRANSP:OPAQUE",
     ]
 
-    # URL veld: NOS samenvatting indien beschikbaar
     if nos_url:
         lines.append(f"URL:{nos_url}")
 
@@ -464,7 +476,7 @@ def main() -> None:
     existing_sequences = load_existing_sequences(ICS_PATH)
     print(f"{len(existing_uids)} bestaande UIDs geladen.")
 
-    print("NOS Sport RSS ophalen…")
+    print("NOS Sport playlist ophalen…")
     nos_videos = fetch_nos_videos()
 
     new_ics = build_calendar(games, existing_uids, existing_sequences, nos_videos)
