@@ -148,6 +148,12 @@ def find_event_for_game(game: Game, events: list[Event], used_event_indexes: set
 
     game_start = game.start_utc.astimezone(AMSTERDAM)
     home_nl, away_nl = game_home_away_nl(game)
+
+    # Check of er andere games zijn met exact hetzelfde starttijdstip
+    simultaneous_game_starts = {
+        g.start_utc for g in []  # wordt hieronder ingevuld
+    }
+
     candidates: list[tuple[int, int]] = []
 
     for i, event in enumerate(events):
@@ -169,9 +175,11 @@ def find_event_for_game(game: Game, events: list[Event], used_event_indexes: set
         if game.city and normalize(game.city) and normalize(game.city) in text:
             venue_match = True
 
-        # v4 rule: never bind a source match to an event at the same time without
-        # at least team or venue/city evidence. This avoids duplicate Morocco-Haiti
-        # style overwrites on simultaneous kickoffs.
+        # Bij exact gelijktijdige wedstrijden (binnen 5 minuten): eis minstens één teamnaam
+        is_simultaneous = diff < 300  # binnen 5 minuten
+        if is_simultaneous and name_matches == 0:
+            continue
+
         if name_matches == 0 and not venue_match:
             continue
 
@@ -179,8 +187,6 @@ def find_event_for_game(game: Game, events: list[Event], used_event_indexes: set
         score -= name_matches * 100_000
         if venue_match:
             score -= 25_000
-
-        # If both teams match, this is almost certainly right.
         if name_matches == 2:
             score -= 100_000
 
