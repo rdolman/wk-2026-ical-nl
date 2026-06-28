@@ -5,14 +5,19 @@ Bouwt wk2026.ics volledig opnieuw op vanuit de ESPN API.
 Bestaand bestand wordt alleen gebruikt om eerder toegewezen UIDs te hergebruiken
 (zodat agenda-abonnees geen dubbele events krijgen). De matching gebeurt
 UITSLUITEND op ESPN wedstrijd-ID – nooit op tijdstip of teamnaam.
+
+NOS Sport YouTube RSS feed wordt gebruikt om samenvattingen toe te voegen
+aan afgelopen wedstrijden.
 """
+
 from __future__ import annotations
 
 import json
 import os
 import re
 import urllib.request
-from dataclasses import dataclass
+import xml.etree.ElementTree as ET
+from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -32,6 +37,8 @@ ESPN_URL = os.environ.get(
     "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
     "?dates=20260611-20260719&limit=300",
 )
+
+NOS_RSS_URL = "https://www.youtube.com/feeds/videos.xml?channel_id=UCT4oPufBQa0f6C67Fw_HXNg"
 
 CALENDAR_HEADER = """\
 BEGIN:VCALENDAR
@@ -68,19 +75,6 @@ CALENDAR_FOOTER = "END:VCALENDAR\r\n"
 
 TEAMS: dict = json.loads(TEAMS_PATH.read_text(encoding="utf-8"))
 
-ROUND_NL = {
-    "Round of 32": "Laatste 32",
-    "Round Of 32": "Laatste 32",
-    "Round of 16": "Achtste finale",
-    "Round Of 16": "Achtste finale",
-    "Quarter-final": "Kwartfinale",
-    "Quarterfinal": "Kwartfinale",
-    "Semi-final": "Halve finale",
-    "Semifinal": "Halve finale",
-    "Third Place Playoff": "Troostfinale",
-    "Final": "Finale",
-}
-
 STATUS_NL = {
     "Scheduled": "Gepland",
     "In Progress": "Bezig",
@@ -105,6 +99,14 @@ def team_nl(name: str | None, with_emoji: bool = False) -> str:
         emoji = info.get("emoji", "").strip()
         return f"{emoji} {info['nl']}".strip() if emoji else info["nl"]
     return info["nl"]
+
+
+def team_nl_name(name: str | None) -> str:
+    """Geeft alleen de Nederlandse naam terug (zonder emoji), voor matching."""
+    if not name:
+        return ""
+    info = TEAMS.get(name.strip())
+    return info["nl"] if info else name.strip()
 
 
 def matchup_title(home: str, away: str, home_score: int | None,
@@ -202,7 +204,104 @@ def fetch_games() -> list[Game]:
 
 
 # ---------------------------------------------------------------------------
-# Bestaande UIDs ophalen (zodat abonnees geen dubbele events krijgen)
+# NOS Sport YouTube RSS ophalen
+# ---------------------------------------------------------------------------
+
+@dataclass
+class NosVideo:
+    title: str
+    url: str
+    published: datetime
+
+
+def fetch_nos_videos() -> list[NosVideo]:
+    """Haalt de laatste video's op van NOS Sport YouTube RSS feed."""
+    try:
+        req = urllib.request.Request(
+            NOS_RSS_URL,
+            headers={"User-Agent": "rdolman-wk2026-ical-nl/5.0"}
+        )
+        with urllib.request.urlopen(req, timeout=15) as r:
+            xml_data = r.read()
+    except Exception as e:
+        print(f"NOS RSS ophalen mislukt: {e}")
+        return []
+
+    # XML namespace
+    ns = {
+        "atom": "http://www.w3.org/2005/Atom",
+        "media": "http://search.yahoo.com/mrss/",
+    }
+
+    try:
+        root = ET.fromstring(xml_data)
+    except ET.ParseError as e:
+        print(f"NOS RSS parse fout: {e}")
+        return []
+
+    videos: list[NosVideo] = []
+    for entry in root.findall("atom:entry", ns):
+        title_el = entry.find("atom:title", ns)
+        link_el = entry.find("atom:link[@rel='alternate']", ns)
+        pub_el = entry.find("atom:published", ns)
+
+        if title_el is None or link_el is None or pub_el is None:
+            continue
+
+        title = title_el.text or ""
+        url = link_el.get("href", "")
+        pub_str = pub_el.text or ""
+
+        # Sla shorts over (geen volledige samenvattingen)
+        if "/shorts/" in url:
+            continue
+
+        try:
+            published = datetime.fromisoformat(pub_str).astimezone(timezone.utc)
+        except ValueError:
+            continue
+
+        videos.append(NosVideo(title=title, url=url, published=published))
+
+    print(f"{len(videos)} NOS Sport video's opgehaald.")
+    return videos
+
+
+def find_nos_summary(game: Game, videos: list[NosVideo]) -> str | None:
+    """
+    Zoekt een NOS samenvatting voor een wedstrijd.
+    Titel formaat: "Samenvatting {Team A} - {Team B} | ..."
+    Matching op Nederlandse teamnamen, gepubliceerd na de wedstrijd.
+    """
+    if not game.completed:
+        return None
+
+    home_nl = team_nl_name(game.home).lower()
+    away_nl = team_nl_name(game.away).lower()
+
+    # Wedstrijd eindigt ongeveer 2 uur na aftrap
+    game_end_utc = game.start_utc + timedelta(hours=2)
+
+    for video in videos:
+        title_lower = video.title.lower()
+
+        # Moet beginnen met "samenvatting"
+        if not title_lower.startswith("samenvatting"):
+            continue
+
+        # Moet na de wedstrijd gepubliceerd zijn
+        if video.published < game_end_utc:
+            continue
+
+        # Beide teamnamen moeten in de titel voorkomen
+        if home_nl in title_lower and away_nl in title_lower:
+            return video.url
+
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Bestaande UIDs en sequences ophalen
 # ---------------------------------------------------------------------------
 
 def load_existing_uids(path: Path) -> dict[str, str]:
@@ -210,21 +309,38 @@ def load_existing_uids(path: Path) -> dict[str, str]:
     if not path.exists():
         return {}
     text = path.read_text(encoding="utf-8", errors="replace")
-    # Unfold
     text = text.replace("\r\n", "\n").replace("\r", "\n")
     text = re.sub(r"\n[ \t]", "", text)
 
     result: dict[str, str] = {}
     for block in re.findall(r"BEGIN:VEVENT\n(.*?)\nEND:VEVENT", text, re.S):
         uid_m = re.search(r"^UID:(.+)$", block, re.M)
-        # Zoek ESPN-ID in UID of description
         espn_m = re.search(r"(?:espn-|Wedstrijd-id:\s*)([0-9]+)", block)
         if uid_m and espn_m:
             espn_id = espn_m.group(1)
             uid = uid_m.group(1).strip()
-            # Sla alleen op als de UID al ESPN-gebaseerd is of nog niet bekend
             if espn_id not in result:
                 result[espn_id] = uid
+    return result
+
+
+def load_existing_sequences(path: Path) -> dict[str, int]:
+    """Geeft {espn_id: sequence} terug zodat we de teller ophogen."""
+    if not path.exists():
+        return {}
+    text = path.read_text(encoding="utf-8", errors="replace")
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    text = re.sub(r"\n[ \t]", "", text)
+
+    result: dict[str, int] = {}
+    for block in re.findall(r"BEGIN:VEVENT\n(.*?)\nEND:VEVENT", text, re.S):
+        espn_m = re.search(r"(?:espn-|Wedstrijd-id:\s*)([0-9]+)", block)
+        seq_m = re.search(r"^SEQUENCE:(\d+)$", block, re.M)
+        if espn_m and seq_m:
+            espn_id = espn_m.group(1)
+            seq = int(seq_m.group(1))
+            if espn_id not in result or seq > result[espn_id]:
+                result[espn_id] = seq + 1
     return result
 
 
@@ -270,7 +386,8 @@ def fmt_now() -> str:
 # Event bouwen
 # ---------------------------------------------------------------------------
 
-def build_event(game: Game, uid: str, now: str, sequence: int) -> str:
+def build_event(game: Game, uid: str, now: str, sequence: int,
+                nos_url: str | None = None) -> str:
     start = fmt_dt(game.start_utc)
     end = fmt_dt(game.start_utc + timedelta(hours=2))
     summary = matchup_title(
@@ -286,8 +403,10 @@ def build_event(game: Game, uid: str, now: str, sequence: int) -> str:
     ]
     if game.venue:
         desc_lines.append(f"Locatie: {game.venue}")
-    description = "\\n".join(desc_lines)
+    if nos_url:
+        desc_lines.append(f"Samenvatting: {nos_url}")
 
+    description = "\\n".join(desc_lines)
     location = ical_escape(game.venue or (game.city or ""))
 
     lines = [
@@ -302,8 +421,13 @@ def build_event(game: Game, uid: str, now: str, sequence: int) -> str:
         f"LOCATION:{location}",
         f"SEQUENCE:{sequence}",
         "TRANSP:OPAQUE",
-        "END:VEVENT",
     ]
+
+    # URL veld: NOS samenvatting indien beschikbaar
+    if nos_url:
+        lines.append(f"URL:{nos_url}")
+
+    lines.append("END:VEVENT")
     return "\r\n".join(fold(line) for line in lines)
 
 
@@ -312,38 +436,23 @@ def build_event(game: Game, uid: str, now: str, sequence: int) -> str:
 # ---------------------------------------------------------------------------
 
 def build_calendar(games: list[Game], existing_uids: dict[str, str],
-                   existing_sequences: dict[str, int]) -> str:
+                   existing_sequences: dict[str, int],
+                   nos_videos: list[NosVideo]) -> str:
     now = fmt_now()
     events: list[str] = []
+    nos_found = 0
 
     for game in games:
-        # UID: hergebruik bestaande indien beschikbaar, anders nieuw ESPN-gebaseerd
         uid = existing_uids.get(game.id, f"wk2026-espn-{game.id}@rdolman.github.io")
         seq = existing_sequences.get(game.id, 0)
-        events.append(build_event(game, uid, now, seq))
+        nos_url = find_nos_summary(game, nos_videos)
+        if nos_url:
+            nos_found += 1
+        events.append(build_event(game, uid, now, seq, nos_url))
 
+    print(f"{nos_found} wedstrijden hebben een NOS samenvatting.")
     body = "\r\n".join(events)
     return CALENDAR_HEADER.replace("\n", "\r\n") + body + "\r\n" + CALENDAR_FOOTER
-
-
-def load_existing_sequences(path: Path) -> dict[str, int]:
-    """Geeft {espn_id: sequence} terug zodat we de teller ophogen."""
-    if not path.exists():
-        return {}
-    text = path.read_text(encoding="utf-8", errors="replace")
-    text = text.replace("\r\n", "\n").replace("\r", "\n")
-    text = re.sub(r"\n[ \t]", "", text)
-
-    result: dict[str, int] = {}
-    for block in re.findall(r"BEGIN:VEVENT\n(.*?)\nEND:VEVENT", text, re.S):
-        espn_m = re.search(r"(?:espn-|Wedstrijd-id:\s*)([0-9]+)", block)
-        seq_m = re.search(r"^SEQUENCE:(\d+)$", block, re.M)
-        if espn_m and seq_m:
-            espn_id = espn_m.group(1)
-            seq = int(seq_m.group(1))
-            if espn_id not in result or seq > result[espn_id]:
-                result[espn_id] = seq + 1
-    return result
 
 
 def main() -> None:
@@ -355,9 +464,11 @@ def main() -> None:
     existing_sequences = load_existing_sequences(ICS_PATH)
     print(f"{len(existing_uids)} bestaande UIDs geladen.")
 
-    new_ics = build_calendar(games, existing_uids, existing_sequences)
+    print("NOS Sport RSS ophalen…")
+    nos_videos = fetch_nos_videos()
 
-    # Controleer of er daadwerkelijk iets veranderd is
+    new_ics = build_calendar(games, existing_uids, existing_sequences, nos_videos)
+
     if ICS_PATH.exists():
         old_ics = ICS_PATH.read_text(encoding="utf-8", errors="replace")
         if old_ics == new_ics:
