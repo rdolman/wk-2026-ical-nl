@@ -109,13 +109,16 @@ def team_nl_name(name: str | None) -> str:
     return info["nl"] if info else name.strip()
 
 
-def matchup_title(home: str, away: str, home_score: int | None,
-                  away_score: int | None, completed: bool) -> str:
-    h = team_nl(home, with_emoji=True)
-    a = team_nl(away, with_emoji=True)
-    if completed and home_score is not None and away_score is not None:
-        return f"WK: {h} - {a} ({home_score}\u2013{away_score})"
-    return f"WK: {h} - {a}"
+def matchup_title(game: Game) -> str:
+    h = team_nl(game.home, with_emoji=True)
+    a = team_nl(game.away, with_emoji=True)
+    if not (game.completed and game.home_score is not None and game.away_score is not None):
+        return f"WK: {h} - {a}"
+    
+    base = f"WK: {h} - {a} ({game.home_score}\u2013{game.away_score})"
+    if game.home_shootout is not None and game.away_shootout is not None:
+        base += f", {game.home_shootout}\u2013{game.away_shootout} n.s."
+    return base
 
 
 # ---------------------------------------------------------------------------
@@ -130,6 +133,8 @@ class Game:
     away: str
     home_score: int | None
     away_score: int | None
+    home_shootout: int | None
+    away_shootout: int | None
     completed: bool
     status: str
     venue: str | None
@@ -187,6 +192,12 @@ def fetch_games() -> list[Game]:
         venue = venue_obj.get("fullName")
         city = (venue_obj.get("address") or {}).get("city")
 
+        def shootout(c: dict) -> int | None:
+            try:
+                return int(c.get("shootoutScore"))
+            except (TypeError, ValueError):
+                return None
+
         games.append(Game(
             id=espn_id,
             start_utc=start_utc,
@@ -194,6 +205,8 @@ def fetch_games() -> list[Game]:
             away=tname(away),
             home_score=score(home),
             away_score=score(away),
+            home_shootout=shootout(home),
+            away_shootout=shootout(away),
             completed=completed,
             status=status,
             venue=venue,
@@ -403,11 +416,7 @@ def build_event(game: Game, uid: str, now: str, sequence: int,
                 nos_url: str | None = None) -> str:
     start = fmt_dt(game.start_utc)
     end = fmt_dt(game.start_utc + timedelta(hours=2))
-    summary = matchup_title(
-        game.home, game.away,
-        game.home_score, game.away_score,
-        game.completed,
-    )
+    summary = matchup_title(game)
 
     desc_lines = [
         "Live bron: ESPN",

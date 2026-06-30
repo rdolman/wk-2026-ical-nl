@@ -2,6 +2,14 @@
 
 Alle wijzigingen in dit project worden in dit bestand bijgehouden.
 
+## [5.3] - 2026-06-30
+
+### Toegevoegd
+
+- Ondersteuning voor verlenging en strafschoppen in de knock-outfase
+- shootoutScore van ESPN wordt uitgelezen en getoond als "(1–1), 2–3 n.s." in de wedstrijdtitel
+- matchup_title() herschreven om het volledige Game-object te gebruiken in plaats van losse parameters
+
 ## [5.2] - 2026-06-28
 
 ### Toegevoegd
