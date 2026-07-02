@@ -92,6 +92,7 @@ STATUS_NL = {
 NOS_ALIASSEN = {
     "dr congo": "congo",
     "verenigde staten": "usa",
+    "bosnië en herzegovina": "bosnia-herzegovina",
 }
 
 def team_nl(name: str | None, with_emoji: bool = False) -> str:
