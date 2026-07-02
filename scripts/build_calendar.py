@@ -314,13 +314,6 @@ def find_nos_summary(game: Game, videos: list[NosVideo]) -> str | None:
     home_nl = NOS_ALIASSEN.get(home_nl, home_nl)
     away_nl = NOS_ALIASSEN.get(away_nl, away_nl)
     
-    # TIJDELIJK debuggen
-    if "congo" in home_nl or "congo" in away_nl:
-        print(f"DEBUG zoek: home='{home_nl}' away='{away_nl}' completed={game.completed}")
-        for video in videos:
-            if "congo" in video.title.lower():
-                print(f"DEBUG video: '{video.title}' gepubliceerd={video.published}")
-
     # Wedstrijd eindigt ongeveer 2 uur na aftrap
     game_end_utc = game.start_utc + timedelta(hours=2)
 
