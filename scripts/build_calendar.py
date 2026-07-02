@@ -88,6 +88,11 @@ STATUS_NL = {
     "Suspended": "Gestaakt",
 }
 
+# Aliassen voor teamnamen die NOS in video-titels verkort of anders schrijft
+NOS_ALIASSEN = {
+    "dr congo": "congo",
+    "verenigde staten": "usa",
+}
 
 def team_nl(name: str | None, with_emoji: bool = False) -> str:
     if not name:
@@ -304,6 +309,10 @@ def find_nos_summary(game: Game, videos: list[NosVideo]) -> str | None:
 
     home_nl = team_nl_name(game.home).lower()
     away_nl = team_nl_name(game.away).lower()
+
+    # Pas NOS-aliassen toe voor teamnamen die anders geschreven worden
+    home_nl = NOS_ALIASSEN.get(home_nl, home_nl)
+    away_nl = NOS_ALIASSEN.get(away_nl, away_nl)
 
     # Wedstrijd eindigt ongeveer 2 uur na aftrap
     game_end_utc = game.start_utc + timedelta(hours=2)

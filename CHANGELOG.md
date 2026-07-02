@@ -2,6 +2,13 @@
 
 Alle wijzigingen in dit project worden in dit bestand bijgehouden.
 
+## [5.4] - 2026-07-02
+
+## Toegevoegd (fix)
+
+- Aliassenlijst (NOS_ALIASSEN) voor teamnamen die NOS in video-titels anders schrijft dan de kalender
+
+
 ## [5.3] - 2026-06-30
 
 ### Toegevoegd
